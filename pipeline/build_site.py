@@ -18,7 +18,7 @@ import shutil
 import time
 from collections import Counter, defaultdict
 from xml.sax.saxutils import escape
-from . import config
+from . import config, classify
 
 SITE_URL = config.SITE_URL
 
@@ -103,6 +103,8 @@ def merge_author_variants(papers):
 
 def slim(r):
     tags = {k: (v if isinstance(v, list) else [v]) for k, v in (r.get("tags") or {}).items() if v}
+    if classify.NEUROMARKER_TITLE.search(r.get("title") or "") and "neuromarker" not in tags.get("approach", []):
+        tags["approach"] = tags.get("approach", []) + ["neuromarker"]
     # a paper that links to a neuromarker, atlas, paradigm, code or dataset counts as releasing open tools
     if any(l["type"] in ("maps", "code", "data", "paradigm") for l in r.get("links", [])) and "open_tools" not in tags.get("approach", []):
         tags["approach"] = tags.get("approach", []) + ["open_tools"]
@@ -275,7 +277,7 @@ def main():
     (config.SITE / "feed.xml").write_text(rss(recent))
     today = time.strftime("%Y-%m-%d")
     pages = [("", "weekly", "1.0"), ("publications.html", "daily", "0.9"), ("research.html", "monthly", "0.8"), ("people.html", "monthly", "0.8"), ("news.html", "daily", "0.7"),
-             ("resources.html", "monthly", "0.7"), ("network.html", "weekly", "0.5"), ("journal-club.html", "daily", "0.6"), ("bibliometrics.html", "weekly", "0.5"), ("join.html", "monthly", "0.6"), ("about.html", "monthly", "0.5")]
+             ("resources.html", "monthly", "0.7"), ("explore.html", "monthly", "0.7"), ("network.html", "weekly", "0.5"), ("journal-club.html", "daily", "0.6"), ("bibliometrics.html", "weekly", "0.5"), ("join.html", "monthly", "0.6"), ("about.html", "monthly", "0.5")]
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     sm += [f"<url><loc>{SITE_URL}/{u}</loc><lastmod>{today}</lastmod><changefreq>{f}</changefreq><priority>{p}</priority></url>" for u, f, p in pages]
     sm += [f"<url><loc>{SITE_URL}/papers/{r['id']}.html</loc><lastmod>{r.get('date_added') or today}</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>" for r in papers]

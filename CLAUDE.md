@@ -81,9 +81,15 @@ Inherited from scienceofplacebo.org so the two sites read as a family.
   <div id="site-footer"></div> filled by layout.js, scripts config.js, app.js, layout.js (+account.js,
   hero.js, d3/minisearch from cdnjs where needed) also with ?v= versions. Bump the version whenever
   app.js/app.css/layout.js change or users get stale caches (this bit us twice).
-- Navigation (layout.js): Research · People · Publications · News · Tools & training · Explore ▾
-  (Collaborator network, Bibliometrics, Science of Placebo, Elements of fMRI tutorials, PBS shared
-  resources, fMRI course) · Join ▾ (Join our team, Participate in research). "My list", "Sign in",
+- Navigation (layout.js): Research · People · Publications · News · Tools & training · Explore ▾ · Join ▾
+  (Join our team, Participate in research). Explore (2026-09-27): the button opens explore.html, a
+  "Resources" page of 12 image tiles (4 wide, 3 rows, all visible without scrolling at 1366x900, minimal
+  header); the dropdown lists "All resources" first, then the same entries, both built from the one
+  EXPLORE array in layout.js (Neuromarker Gallery, fMRI analysis code = github.com/canlab, Open data =
+  CANlab_data_public, Task paradigms = Paradigms_Public, Journal club, My reading list, Collaborator
+  network, Bibliometrics, Science of Placebo, Elements of fMRI tutorials, PBS shared resources, fMRI
+  course). Tile images live in assets/img/explore/ (480x240, no people). Tools & training lists the
+  Neuromarker Gallery first among the tools. "My list", "Sign in",
   "About this site" live only in the footer. No Discussion board (removed on request).
 - Brand mark: the brain outline cropped from the lab logo, bold-stroked, in a 34px amber tile beside
   "CANlab" (b for CAN). Favicon = brain slice + three connected coloured nodes (orange, green, purple)
@@ -223,6 +229,9 @@ batch-NN.tags.json; scripts/apply_tags.py validates ids against the taxonomy and
 36 batches for 400 papers; re-tag low-confidence ones once their PDFs are found. With an API key the
 daily pipeline tags candidates automatically (classify.py, structured JSON output).
 Automatic rule at build: any paper with a maps/code/data/paradigm link gets approach open_tools.
+PI rule (2026-09-27): a title containing "signature", "predictive model" or "neuromarker" always gets approach
+neuromarker (classify.NEUROMARKER_TITLE; applied in classify.apply and again in build_site.slim; the lab papers
+and journal-club items that lacked it were back-filled).
 Genetics was added after the first pass and back-filled by keyword; expect to add values later too.
 Adding a value later (taxonomy 1.1.0 added the stimulation methods tms, tdcs and tis under the renamed
 umbrella brain_stimulation = "Neurostimulation (any)"): bump taxonomy_version and PROMPT_VERSION, say in
