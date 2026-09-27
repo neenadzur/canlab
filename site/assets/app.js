@@ -88,11 +88,21 @@ window.CL = (function () {
       const lab = l.label && !/^(pdf|online link|link|full text|read online)$/i.test(l.label) ? l.label : (LINK_LABELS[l.type] || "Link");
       out.push(`<a class="plink ${l.type}" href="${esc(url)}" target="_blank" rel="noopener"${l.version === "author_manuscript" ? ' title="PubMed Central author manuscript"' : ""}>${esc(lab)}${l.type === "pdf" ? "" : " ↗"}</a>`);
     }
+    for (const m of r.nm || []) out.push(`<a class="plink nm" href="${esc(m.url)}" target="_blank" rel="noopener" title="Explore ${esc(m.name)} in the Neuromarker Gallery">Neuromarker gallery ↗</a>`);
     if (r.doi && !(r.links || []).some(l => l.type === "publisher")) out.push(`<a class="plink publisher" href="https://doi.org/${esc(r.doi)}" target="_blank" rel="noopener">Publisher ↗</a>`);
     if (r.pmid) out.push(`<a class="plink" href="https://pubmed.ncbi.nlm.nih.gov/${esc(r.pmid)}/" target="_blank" rel="noopener">PubMed</a>`);
     if (r.oa && r.oa !== (r.links || []).find(l => l.type === "pdf")?.url && !r.pdf) out.push(`<a class="plink" href="${esc(r.oa)}" target="_blank" rel="noopener">Open access ↗</a>`);
     if (!opts.noDetail) out.push(`<a class="plink detail" href="papers/${encodeURIComponent(r.id)}.html">Details</a>`);
     return out.join("");
+  }
+
+  // ---- neuromarkers.io tiles: one per signature this paper introduced (r.nm or r.neuromarkers, built from the gallery catalog)
+  function nmTiles(r, base = "") {
+    const nm = r.nm || r.neuromarkers || [];
+    if (!nm.length) return "";
+    return `<div class="nm-tiles">${nm.map(m => `<a class="nm-tile" href="${esc(m.url)}" target="_blank" rel="noopener">
+      ${m.img ? `<img src="${esc(base + m.img)}" alt="Axial slice of the ${esc(m.name)} pattern" width="180" height="130" loading="lazy">` : ""}
+      <span class="nm-body"><span class="nm-kicker">Neuromarker Gallery · neuromarkers.io</span><b>${esc(m.name)}</b><span class="small muted">View the brain pattern in three planes and on the cortical surface, and download the map.</span><span class="go">Open in the gallery ↗</span></span></a>`).join("")}</div>`;
   }
 
   function citeLine(r) {
@@ -197,5 +207,5 @@ window.CL = (function () {
     function update() { let cur = secs[0]; for (const s of secs) if (s.getBoundingClientRect().top <= 120) cur = s; links.forEach(a => a.classList.toggle("on", cur && a.getAttribute("href") === "#" + cur.id)); }
     window.addEventListener("scroll", update, { passive: true }); update();
   }
-  return { state, config: C, loadCore, sideNav, getJSON, chipsFor, paperCard, linkList, citeLine, cite, matches, list, starBtn, bindStars, updateListBadge, exportRefs, exportMenu, bindExport, renderFilters, activeChips, toggle, filtersToQuery, filtersFromQuery, bindCardChips, label, esc, fmtDate, chipColors, pdfUrl, CARD_AXES, FILTER_AXES };
+  return { state, config: C, loadCore, sideNav, getJSON, chipsFor, paperCard, linkList, nmTiles, citeLine, cite, matches, list, starBtn, bindStars, updateListBadge, exportRefs, exportMenu, bindExport, renderFilters, activeChips, toggle, filtersToQuery, filtersFromQuery, bindCardChips, label, esc, fmtDate, chipColors, pdfUrl, CARD_AXES, FILTER_AXES };
 })();

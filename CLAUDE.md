@@ -274,6 +274,18 @@ Former Postdocs. Check photos actually show the named person (one was mislabelle
 5. Link the canlab Neuroimaging_Pattern_Masks repo: fetch its tree (gh api .../git/trees/master
    ?recursive=1), match "YYYY_Author_..." folders to papers by year + author, review by hand, add
    links of type maps. The NPS itself is not in the public repo.
+   GitHub code/paradigm/data links (added 2026-09-27, scripts/link_github_repos.py holds the reviewed table):
+   the best source is the papers' own code-availability statements (grep PDF text for github.com, rejoin
+   line-broken URLs, then `git ls-remote` each repo, since truncated or private ones are common); then canlab org
+   repos, canlab/Paradigms_Public and canlab/CANlab_data_public folders (YYYY_Author_...), then first
+   authors' own accounts. Only clear matches go into papers.json (labels "Code (GitHub)", "Paradigm (GitHub)",
+   "Data (GitHub)"; Spacetop links the spatialtopology org); guesses go to reports/github_links_since2020.csv
+   for the lab. Link only public repos. Neuromarker Gallery (neuromarkers.io, source in
+   Neuroimaging_Pattern_Masks/site, catalog site/data/catalog.json, pages /marker/<catalog id>/): papers get a
+   "neuromarkers" list [{id,name,url,img}] shown as a thumbnail tile on the paper page and a dark
+   "Neuromarker gallery" pill on cards; thumbnails in assets/img/neuromarkers/ are rendered from each
+   study's first map (the deployed gallery host was unreachable from the sandbox). Re-run the script when the
+   gallery catalog grows.
 6. AUDIT DOIs AFTER ENRICHMENT (scripts/audit_dois.py, then a reviewed scripts/apply_doi_fixes.py). Title
    matching alone attached the NEJM pain-signature paper to a same-titled chapter in a book summarising
    it (1 citation instead of ~1,700); others got a meeting abstract, an SSRN copy, an eLife reviewer

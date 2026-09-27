@@ -18,7 +18,7 @@
 <meta name="twitter:image" content="https://torwager.github.io/canlab/assets/og.jpg">
 <link rel="canonical" href="{{URL}}">
 <link rel="icon" href="../assets/favicon.svg?v=3" type="image/svg+xml"><link rel="alternate icon" href="../assets/favicon-32.png?v=3" sizes="32x32"><link rel="apple-touch-icon" href="../assets/apple-touch-icon.png?v=3">
-<link rel="stylesheet" href="../assets/app.css?v=5">
+<link rel="stylesheet" href="../assets/app.css?v=6">
 <script type="application/ld+json">{{JSONLD}}</script>
 <base href="../">
 </head>
@@ -33,10 +33,10 @@
   </section>
 </main>
 <div id="site-footer"></div>
-<script src="assets/config.js?v=5"></script>
-<script src="assets/app.js?v=5"></script>
-<script src="assets/layout.js?v=5"></script>
-<script src="assets/account.js?v=5"></script>
+<script src="assets/config.js?v=6"></script>
+<script src="assets/app.js?v=6"></script>
+<script src="assets/layout.js?v=6"></script>
+<script src="assets/account.js?v=6"></script>
 <script>
 (async function () {
   const { state } = await CL.loadCore();
@@ -60,6 +60,7 @@
     <div class="small">${CL.esc(authors)}</div>
     <div class="plinks">${links}<span class="btn" style="padding:.45em .9em">${CL.starBtn(id)} <span class="small">My list</span></span></div>
     ${(r.commentaries || []).length ? `<div class="comms">${r.commentaries.map(c => `<a class="comm" href="${CL.esc(c.pdf || (c.doi ? "https://doi.org/" + c.doi : "#"))}" target="_blank" rel="noopener"><span class="ic">✎</span><span><b>${CL.esc(c.note || "Commentary")}:</b> ${CL.esc(c.title)} <span class="muted">(${CL.esc(c.authors || "")}${c.journal ? ", " + CL.esc(c.journal) : ""}${c.year ? " " + c.year : ""})</span></span></a>`).join("")}</div>` : ""}
+    ${CL.nmTiles(slim)}
     ${r.summary ? `<div class="callout"><b>In one sentence.</b> ${CL.esc(r.summary)}${r.key_finding ? " " + CL.esc(r.key_finding) : ""}</div>` : ""}
     <div><h3 style="margin-bottom:.3rem">Abstract</h3><div class="abstract">${r.abstract ? CL.esc(r.abstract) : '<span class="muted">No abstract available; see the PDF or publisher page.</span>'}</div></div>
     <div><h3 style="margin-bottom:.5rem">Keywords</h3><div style="display:grid;gap:.5rem">${axisRows || '<span class="muted small">Not yet tagged.</span>'}

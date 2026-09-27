@@ -223,6 +223,11 @@
     "url": "pdf/dehghani2026transcranial.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2026/03/transcranial_direct_current_stimulation_of_primary.15.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/canlab/stimMAP_2025"
    }
   ],
   "has_pdf": true,
@@ -572,6 +577,11 @@
     "type": "maps",
     "label": "Brain pattern (signature)",
     "url": "https://github.com/canlab/Neuroimaging_Pattern_Masks/tree/master/Multivariate_signature_patterns/2026_Acil_Mentalizing_Self_Other"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/ldmk/2025_MentalizingSignatures"
    }
   ],
   "has_pdf": true,
@@ -616,7 +626,15 @@
   "crossref_checked": true,
   "citation_original": "Açil D., Andrews-Hanna, J. R., López-Solà, M., van Buuren, M., Krabbendam, L., Zhang, L., van der Meer, L., Fuentes-Claramonte, P., Pomarol-Clotet, E., Salvador, R., Debbané, M., Vrticka, P., Vuilleumier, P., Sbarra, D. A., Coppola, A. M., Tusche, A., White, L. O., Wager, T. D., & Koban, L. (2026). Brain neuromarkers predict self- and other-related mentalizing across adult, clinical, and developmental samples. Nat Commun 17, 7229. [online link]",
   "preprint_doi": "10.1101/2025.03.10.642438",
-  "citations_refreshed": "2026-09-25"
+  "citations_refreshed": "2026-09-25",
+  "neuromarkers": [
+   {
+    "id": "2026-acil-mentalizing-self-other",
+    "name": "Mentalizing · Self & other",
+    "url": "https://neuromarkers.io/marker/2026-acil-mentalizing-self-other/",
+    "img": "assets/img/neuromarkers/2026-acil-mentalizing-self-other.jpg"
+   }
+  ]
  },
  {
   "id": "spisak2026metaanalytic",
@@ -687,6 +705,11 @@
     "url": "pdf/spisak2026metaanalytic.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2026/07/s41467-026-74743-0-1.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/pni-lab/placebo-conditioning-meta-analysis"
    }
   ],
   "has_pdf": true,
@@ -1520,6 +1543,11 @@
     "type": "publisher",
     "label": "read online",
     "url": "https://www.pnas.org/doi/10.1073/pnas.2513856123"
+   },
+   {
+    "type": "code",
+    "label": "Task code (GitHub)",
+    "url": "https://github.com/spatialtopology/task-social"
    }
   ],
   "has_pdf": true,
@@ -1620,6 +1648,11 @@
     "url": "pdf/panzel2026auditory.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2026/03/Annals-of-Neurology-2026-Panzel-Auditory-Hyperresponsivity-in-Chronic-Back-Pain-A-Randomized-Controlled-Trial-of.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/AlinaPanzel/AHinCBP"
    }
   ],
   "has_pdf": true,
@@ -1759,7 +1792,15 @@
   },
   "crossref_checked": true,
   "citation_original": "Murillo, C., Wager, T. D., & Ashar, Y. K. (2026). Are gray matter changes following pain reprocessing therapy associated with clinical improvement? A voxel-based morphometry mediation analysis. The journal of pain, 40, 105644. [online link]",
-  "citations_refreshed": "2026-09-23"
+  "citations_refreshed": "2026-09-23",
+  "neuromarkers": [
+   {
+    "id": "2026-murillo-pifonem",
+    "name": "PiFoneM · Fear of neck movement",
+    "url": "https://neuromarkers.io/marker/2026-murillo-pifonem/",
+    "img": "assets/img/neuromarkers/2026-murillo-pifonem.jpg"
+   }
+  ]
  },
  {
   "id": "rader2026adolescent",
@@ -1913,6 +1954,11 @@
     "url": "pdf/rader2026genetic.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2026/03/Addiction-2026-Rader-Genetic-overlap-of-chronic-pain-musculoskeletal‐specific-pain-substance-use-disorders-and.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/lydia-rader/sud_pain_gsem_2025"
    }
   ],
   "has_pdf": true,
@@ -2011,6 +2057,11 @@
     "url": "pdf/englert2026functional.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2026/03/elife-98725-v1.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/pni-lab/connattractor"
    }
   ],
   "has_pdf": true,
@@ -2235,6 +2286,11 @@
     "type": "maps",
     "label": "Brain maps",
     "url": "https://github.com/canlab/Neuroimaging_Pattern_Masks/tree/master/Individual_study_maps/2026_Miao_Social-ToM_BayesFactor"
+   },
+   {
+    "type": "data",
+    "label": "Data (GitHub)",
+    "url": "https://github.com/canlab/CANlab_data_public/tree/master/2026_Miao_SocialInteractions_ToM"
    }
   ],
   "has_pdf": true,
@@ -2343,6 +2399,11 @@
     "type": "publisher",
     "label": "online link",
     "url": "https://www.biorxiv.org/content/10.64898/2026.04.07.717067v1"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/ZhaoxingWei09/Cerebellar_placebo"
    }
   ],
   "has_pdf": true,
@@ -2864,6 +2925,11 @@
     "type": "publisher",
     "label": "online link",
     "url": "https://www.biorxiv.org/content/10.64898/2026.04.15.718797v1"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/canlab/tTIS_pain_2025"
    }
   ],
   "has_pdf": true,
@@ -3186,6 +3252,11 @@
     "type": "publisher",
     "label": "Full Text",
     "url": "https://www.nature.com/articles/s41467-026-74565-0.epdf?sharing_token=MrUNxSLKPahL2yBGw-aVKdRgN0jAjWel9jnR3ZoTv0NV1g_be4T88RaVX1WTnGfFHWyNNSnSDHLY1nQAoOIdc9bPlqyA_nPaLq5AKIqWkTM0hTJQKOcZoFVUjUAKL4fDo1jV0Mexh93svmasj2GP9QPNKbYY-c07DTYkQEelwLo%3D"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/MaurizioSicorello/NeuroSquare_repo"
    }
   ],
   "has_pdf": true,
@@ -4482,6 +4553,11 @@
     "url": "pdf/botviniknezer2025expectation.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2026/05/journal.pcbi_.1013053-1.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/rotemb9/PPRI-paper"
    }
   ],
   "has_pdf": true,
@@ -4933,6 +5009,11 @@
     "type": "publisher",
     "label": "online link",
     "url": "https://www.nature.com/articles/s41597-025-05154-x"
+   },
+   {
+    "type": "code",
+    "label": "GitHub (spatialtopology)",
+    "url": "https://github.com/spatialtopology"
    }
   ],
   "has_pdf": true,
@@ -5433,6 +5514,11 @@
     "url": "pdf/zhang2025cortical.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2025/10/s41593-025-02087-x.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/jiahez/7-Tesla-Allostatic-Interoceptive-System"
    }
   ],
   "has_pdf": true,
@@ -5935,6 +6021,11 @@
     "type": "maps",
     "label": "Brain maps",
     "url": "https://github.com/canlab/Neuroimaging_Pattern_Masks/tree/master/Individual_study_maps/2024_Bo_EmotionRegulation_BayesFactor"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/KeBo2018/KeBo2023_EmotionReg_BayesFactor"
    }
   ],
   "has_pdf": true,
@@ -6464,6 +6555,11 @@
     "url": "pdf/dehghani2024independent.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2024/08/independent_effects_of_transcranial_direct_current.657.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/canlab/stimMAP_2022_public"
    }
   ],
   "has_pdf": true,
@@ -6573,6 +6669,16 @@
     "url": "pdf/botviniknezerr2024placebo.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2024/07/Botvinik-Nezer_2024_NatComms_Placebo_PainGen.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/rotemb9/paingen-placebo-fmri-paper"
+   },
+   {
+    "type": "paradigm",
+    "label": "Paradigm (GitHub)",
+    "url": "https://github.com/canlab/Paradigms_Public/tree/master/2023_Botvinik_Nezer_PAINGEN_paradigms_NatureComms"
    }
   ],
   "has_pdf": true,
@@ -7443,6 +7549,11 @@
     "type": "maps",
     "label": "Brain pattern (signature)",
     "url": "https://github.com/canlab/Neuroimaging_Pattern_Masks/tree/master/Multivariate_signature_patterns/2024_FEPS_Facial_Expressions_of_Pain_Signature"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/me-pic/picard_feps_2023"
    }
   ],
   "has_pdf": true,
@@ -7485,7 +7596,15 @@
   "crossref_checked": true,
   "abstract_source": "pdf",
   "citation_original": "Picard, M-E., Kunz, M., Chen, J-I., Coll, M-P., Vachon-Presseau, E., Wager, T.D., & Rainville, P. (2024) A distributed brain response predicting the facial expression of acute nociceptive pain eLife 12:RP87962 [PDF]",
-  "citations_refreshed": "2026-09-24"
+  "citations_refreshed": "2026-09-24",
+  "neuromarkers": [
+   {
+    "id": "2024-feps-facial-expressions-of-pain-signature",
+    "name": "FEPS · Facial expression of pain",
+    "url": "https://neuromarkers.io/marker/2024-feps-facial-expressions-of-pain-signature/",
+    "img": "assets/img/neuromarkers/2024-feps-facial-expressions-of-pain-signature.jpg"
+   }
+  ]
  },
  {
   "id": "lewispeacock2024decoding",
@@ -8215,6 +8334,11 @@
     "type": "maps",
     "label": "Link to the signature",
     "url": "https://github.com/canlab/Neuroimaging_Pattern_Masks/tree/master/Multivariate_signature_patterns/2022_Koban_NCS_Craving"
+   },
+   {
+    "type": "data",
+    "label": "Data (GitHub)",
+    "url": "https://github.com/canlab/CANlab_data_public/tree/master/2022_Koban_Kober_Craving_NatNeuro"
    }
   ],
   "has_pdf": true,
@@ -8257,7 +8381,15 @@
   },
   "crossref_checked": true,
   "citation_original": "Koban, L., Wager, T.D. & Kober, H. (2023). A neuromarker for drug and food craving distinguishes drug users from non-users. Nat Neurosci 26, 316–325 . PMID: 36536243. [PDF] [Link to the signature]",
-  "citations_refreshed": "2026-09-22"
+  "citations_refreshed": "2026-09-22",
+  "neuromarkers": [
+   {
+    "id": "2022-koban-ncs-craving",
+    "name": "NCS · Craving",
+    "url": "https://neuromarkers.io/marker/2022-koban-ncs-craving/",
+    "img": "assets/img/neuromarkers/2022-koban-ncs-craving.jpg"
+   }
+  ]
  },
  {
   "id": "jung2023divergent",
@@ -8407,6 +8539,11 @@
     "url": "pdf/nath2023machine.pdf",
     "url_original": "https://reader.elsevier.com/reader/sd/pii/S1053811922009648?token=4B3A0CD6C6AEC3423CCC604603151EAC9514DF5131EE5DEEEC8FA236C5CCEADAA9316093059B106D93398DC833E6DE37&originRegion=us-east-1&originCreation=20230106222005",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/meet10may/deep-mediation"
    }
   ],
   "has_pdf": true,
@@ -8567,7 +8704,15 @@
   },
   "crossref_checked": true,
   "citation_original": "Speer, S.P.H., Keysers, C., Barrios, J.C., Teurlings, C.J.S., Smidts, A., Boksem, M. A.S., Wager, T.D., & Gazzola, V. (2023). A multivariate brain signature for reward. NeuroImage, 271, 119990. PMID: 36878456. [PDF] [Link to the signature]",
-  "citations_refreshed": "2026-09-25"
+  "citations_refreshed": "2026-09-25",
+  "neuromarkers": [
+   {
+    "id": "2023-speer-brain-reward-signature-brs",
+    "name": "BRS · Brain reward signature",
+    "url": "https://neuromarkers.io/marker/2023-speer-brain-reward-signature-brs/",
+    "img": "assets/img/neuromarkers/2023-speer-brain-reward-signature-brs.jpg"
+   }
+  ]
  },
  {
   "id": "spisak2023multivariate",
@@ -8621,6 +8766,11 @@
     "url": "pdf/spisak2023multivariate.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2024/01/s41586-023-05745-x-908c2c36c980fe0f.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/spisakt/BWAS_comment"
    }
   ],
   "has_pdf": true,
@@ -8822,6 +8972,11 @@
     "url": "pdf/botviniknezer2023belief.pdf",
     "url_original": "https://rdcu.be/c9yPx",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/rotemb9/election-beliefs-paper"
    }
   ],
   "has_pdf": true,
@@ -9167,6 +9322,11 @@
     "url": "pdf/kim2023dorsomedial.pdf",
     "url_original": "https://www.nature.com/articles/s41467-023-39142-9.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/cocoanlab/rumination"
    }
   ],
   "has_pdf": true,
@@ -9526,6 +9686,11 @@
     "url": "pdf/bogaerts2023mediators.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2023/08/Bogaerts_et_al-2023-Translational_Psychiatry.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/labgas/proj-emosymp"
    }
   ],
   "has_pdf": true,
@@ -9649,6 +9814,11 @@
     "url": "pdf/perszyk2023odourimagery.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2023/10/s42255-023-00874-z.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/eeperszyk/odor-imagery"
    }
   ],
   "has_pdf": true,
@@ -9862,6 +10032,11 @@
     "url": "pdf/ashar2023reattribution.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2023/10/ashar_2023_oi_230978_1695236365.91676.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/yonestar/Ashar_2023_CBP_reattribution"
    }
   ],
   "has_pdf": true,
@@ -9958,6 +10133,11 @@
     "url": "pdf/zhang2023social.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2023/12/ZhangWagerKoban_R1_20231030.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "data",
+    "label": "Data (GitHub)",
+    "url": "https://github.com/canlab/CANlab_data_public/tree/master/2023_Zhang_Koban_Social_cues_vicarious_pain"
    }
   ],
   "has_pdf": true,
@@ -10074,6 +10254,11 @@
     "url": "pdf/han2022effect.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2021/03/2022_Han_NeuroImage.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/XiaochunHan/NPS_measurement_properties"
    }
   ],
   "has_pdf": true,
@@ -10286,6 +10471,11 @@
     "type": "data",
     "label": "Data on Figshare",
     "url": "https://figshare.com/s/1840dc4c0e236a7072ca"
+   },
+   {
+    "type": "paradigm",
+    "label": "Paradigm (GitHub)",
+    "url": "https://github.com/canlab/Paradigms_Public/tree/master/2021_Ashar_CBP_PRT_JAMA_Psych"
    }
   ],
   "has_pdf": true,
@@ -10803,6 +10993,11 @@
     "url": "pdf/petre2022multistudy.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2021/03/2022_Petre_PLOSBiol.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/canlab/petre_scope_of_pain_representation"
    }
   ],
   "has_pdf": true,
@@ -10901,6 +11096,21 @@
     "type": "maps",
     "label": "Brain Pattern Masks",
     "url": "https://github.com/canlab/Neuroimaging_Pattern_Masks/tree/master/Multivariate_signature_patterns/2021_Ceko_MPA2_multiaversive"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/canlab/2021_Ceko_MPA2_Aversive"
+   },
+   {
+    "type": "paradigm",
+    "label": "Paradigm (GitHub)",
+    "url": "https://github.com/canlab/Paradigms_Public/tree/master/2022_Ceko_Woo_MPA2_Nature_Neuro"
+   },
+   {
+    "type": "data",
+    "label": "Data (GitHub)",
+    "url": "https://github.com/canlab/CANlab_data_public/tree/master/2022_Ceko_MPA2_NatNeuro_Aversive"
    }
   ],
   "has_pdf": true,
@@ -10944,7 +11154,15 @@
   },
   "crossref_checked": true,
   "citation_original": "Čeko, M., Kragel, P.A., Woo, C-W., López-Solà, M. & Wager, T.D. (2022). Common and stimulus-type-specific brain representations of negative affect. Nature Neuroscience. 25(6):760-770. PMID: 35637370. [PDF], [Brain Pattern Masks]",
-  "citations_refreshed": "2026-09-27"
+  "citations_refreshed": "2026-09-27",
+  "neuromarkers": [
+   {
+    "id": "2021-ceko-mpa2-multiaversive",
+    "name": "MPA2 · Multi-aversive patterns",
+    "url": "https://neuromarkers.io/marker/2021-ceko-mpa2-multiaversive/",
+    "img": "assets/img/neuromarkers/2021-ceko-mpa2-multiaversive.jpg"
+   }
+  ]
  },
  {
   "id": "kohoutova2022individual",
@@ -11026,6 +11244,11 @@
     "url": "pdf/kohoutova2022individual.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2021/03/2022_Kohoutová_NatNeuro.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/cocoanlab/individual_var_pain"
    }
   ],
   "has_pdf": true,
@@ -11129,6 +11352,11 @@
     "type": "maps",
     "label": "Brain Pattern Masks",
     "url": "https://github.com/canlab/Neuroimaging_Pattern_Masks/tree/master/Multivariate_signature_patterns/2022_coll_pain_monetary_reward_decision_value"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/mpcoll/coll_painvalue_2021"
    }
   ],
   "has_pdf": false,
@@ -11171,7 +11399,15 @@
   },
   "crossref_checked": true,
   "citation_original": "Coll, M.P., Slimani, H., Woo, C-W, Wager, T.D., Rainville, P., Vachon-Presseau, É. & Roy, M. (2022). The neural signature of the decision value of future pain. PNAS. 119(23):e2119931119. PMID: 35658082. [Link], [Brain Pattern Masks]",
-  "citations_refreshed": "2026-09-21"
+  "citations_refreshed": "2026-09-21",
+  "neuromarkers": [
+   {
+    "id": "2022-coll-pain-monetary-reward-decision-value",
+    "name": "Decision value · Pain & money",
+    "url": "https://neuromarkers.io/marker/2022-coll-pain-monetary-reward-decision-value/",
+    "img": "assets/img/neuromarkers/2022-coll-pain-monetary-reward-decision-value.jpg"
+   }
+  ]
  },
  {
   "id": "garavan2022abcd",
@@ -11255,6 +11491,11 @@
     "url": "pdf/garavan2022abcd.pdf",
     "url_original": "https://doi.org/10.1016/j.dcn.2022.101144",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/sahahn/SST_Response"
    }
   ],
   "has_pdf": true,
@@ -11363,6 +11604,11 @@
     "url": "pdf/klein2022crossparadigm.pdf",
     "url_original": "https://www.sciencedirect.com/science/article/pii/S1053811922007091?utm_campaign=STMJ_AUTH_SERV_PUBLISHED&utm_medium=email&utm_acid=113171371&SIS_ID=&dgcid=STMJ_AUTH_SERV_PUBLISHED&CMX_ID=&utm_in=DM291424&utm_source=AC_",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/s-kline/aversive-appetitive-conditioning"
    }
   ],
   "has_pdf": true,
@@ -11658,6 +11904,11 @@
     "url": "pdf/jolly2022recovering.pdf",
     "url_original": "https://link.springer.com/article/10.1007/s42761-022-00161-2",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/cosanlab/neighbors"
    }
   ],
   "has_pdf": true,
@@ -12091,6 +12342,11 @@
     "url": "pdf/salman2021approach.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2021/03/2021_Salman_BrainConnect.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/esalman/autolabeller"
    }
   ],
   "has_pdf": true,
@@ -12201,6 +12457,11 @@
     "url": "pdf/busch2021hybrid.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2021/03/2021_Busch_Neuroim.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/ericabusch/hybrid_hyperalignment_neuroimage"
    }
   ],
   "has_pdf": true,
@@ -12450,6 +12711,11 @@
     "type": "data",
     "label": "Dataset",
     "url": "https://figshare.com/articles/dataset/data_zip/13082519"
+   },
+   {
+    "type": "paradigm",
+    "label": "Paradigm (GitHub)",
+    "url": "https://github.com/canlab/Paradigms_Public/tree/master/2020_Lee_Woo_Wani_capsaicin_NatureMed"
    }
   ],
   "has_pdf": true,
@@ -12560,6 +12826,11 @@
     "url": "pdf/sicorello2021affective.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2021/03/2021_Sicorello_NeuroimRep.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/MaurizioSicorello/MVPAemoDys_Analyses"
    }
   ],
   "has_pdf": true,
@@ -12787,6 +13058,11 @@
     "type": "maps",
     "label": "Meta-analysis maps",
     "url": "https://github.com/canlab/Neuroimaging_Pattern_Masks/tree/master/CANlab_Meta_analysis_maps/2021_Zunhammer_n603_Pain_Placebo"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/mzunhammer/PlaceboImagingMetaAnalysis"
    }
   ],
   "has_pdf": false,
@@ -12879,6 +13155,11 @@
     "url": "pdf/koban2021self.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2021/03/2021_Koban_NatRevNrsc.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/canlab/2021_Koban_NRN_SelfInContext"
    }
   ],
   "has_pdf": true,
@@ -12977,6 +13258,11 @@
     "url": "pdf/ashar2021markers.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2021/03/2021_Ashar_TransPsych.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/yonestar/WhitfieldGabrieli2015_replication"
    }
   ],
   "has_pdf": true,
@@ -13199,6 +13485,11 @@
     "url": "pdf/ashar2021effects.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2021/03/2021_Ashar_SocCogAffNeurosci.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/yonestar/effects_of_CM_on_brain"
    }
   ],
   "has_pdf": true,
@@ -13620,6 +13911,21 @@
     "url": "pdf/zhang2021gender.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2021/03/2021_Zhang_JPain.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/zhang2lan/Gender-bias-in-pain-estimation"
+   },
+   {
+    "type": "paradigm",
+    "label": "Paradigm (GitHub)",
+    "url": "https://github.com/canlab/Paradigms_Public/tree/master/2021_Lanlan_Perceived_pain_gender_bias"
+   },
+   {
+    "type": "data",
+    "label": "Data (GitHub)",
+    "url": "https://github.com/canlab/CANlab_data_public/tree/master/2021_Zhang_gender_biases_pain_data_and_analysis"
    }
   ],
   "has_pdf": true,
@@ -13921,7 +14227,12 @@
    {
     "type": "maps",
     "label": "Brain Pattern Masks",
-    "url": "https://github.com/canlab/Neuroimaging_Pattern_Masks/tree/master/Multivariate_signature_patterns/2020_Zhou_general_vicarious_pain"
+    "url": "https://github.com/canlab/Neuroimaging_Pattern_Masks/tree/master/Multivariate_signature_patterns/2021_Zhou_Subjective_Fear"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/zhou-feng/fMRI-studies"
    }
   ],
   "has_pdf": true,
@@ -13964,7 +14275,15 @@
   },
   "crossref_checked": true,
   "citation_original": "Zhou, F, & Zhao, W., & Qi, Z., & Geng, Y., Yao, S., Kendrick, K.M., Wager, T.D. & Becker, B. (2021). A distributed fMRI-based signature for the subjective experience of fear. Nature Communications. 12(1), 6643. [PDF], [Brain Pattern Masks]",
-  "citations_refreshed": "2026-09-27"
+  "citations_refreshed": "2026-09-27",
+  "neuromarkers": [
+   {
+    "id": "2021-zhou-subjective-fear",
+    "name": "VIFS · Subjective fear",
+    "url": "https://neuromarkers.io/marker/2021-zhou-subjective-fear/",
+    "img": "assets/img/neuromarkers/2021-zhou-subjective-fear.jpg"
+   }
+  ]
  },
  {
   "id": "savage2021neural",
@@ -14170,7 +14489,15 @@
   },
   "crossref_checked": true,
   "citation_original": "van ’t Hof, S.R., Van Oudenhove, L., Klein, S., Reddan, M. C., Kragel, P. A., Stark, R. & Wager, T. D. (2021). The Brain Activation-Based Sexual Image Classifier (BASIC): A Sensitive and Specific fMRI Activity Pattern for Sexual Image Processing. Cerebral Cortex. 32(14), 3014–3030. PMID: 34905775. [PDF],[Brain Pattern Masks]",
-  "citations_refreshed": "2026-09-25"
+  "citations_refreshed": "2026-09-25",
+  "neuromarkers": [
+   {
+    "id": "2021-vanthoff-basic-sexual-image-classifier",
+    "name": "BASIC · Sexual-image classifier",
+    "url": "https://neuromarkers.io/marker/2021-vanthoff-basic-sexual-image-classifier/",
+    "img": "assets/img/neuromarkers/2021-vanthoff-basic-sexual-image-classifier.jpg"
+   }
+  ]
  },
  {
   "id": "jung2021novel",
@@ -14809,6 +15136,11 @@
     "type": "maps",
     "label": "Brain Model",
     "url": "https://github.com/canlab/Neuroimaging_Pattern_Masks/blob/master/Multivariate_signature_patterns/2019_Yu_Koban_Guilt/tables_and_figures/Yu_Koban_Guilt_montage.png"
+   },
+   {
+    "type": "maps",
+    "label": "Brain pattern (signature)",
+    "url": "https://github.com/canlab/Neuroimaging_Pattern_Masks/tree/master/Multivariate_signature_patterns/2019_Yu_Koban_Guilt"
    }
   ],
   "has_pdf": true,
@@ -14853,7 +15185,15 @@
   "crossref_checked": true,
   "citation_original": "Yu, H., Koban, L., Chang, L. J., Wagner, U., Krishnan, A., Vuilleumier, P., Zhou, X. & Wager, T. D. (2020). A Generalizable Multivariate Brain Pattern for Interpersonal Guilt. Cerebral Cortex. 30(6): 3558–3572. PMCID: PMC7232998. [PDF], [Brain Model]",
   "preprint_doi": "10.1101/835520",
-  "citations_refreshed": "2026-09-24"
+  "citations_refreshed": "2026-09-24",
+  "neuromarkers": [
+   {
+    "id": "2019-yu-koban-guilt",
+    "name": "Interpersonal guilt",
+    "url": "https://neuromarkers.io/marker/2019-yu-koban-guilt/",
+    "img": "assets/img/neuromarkers/2019-yu-koban-guilt.jpg"
+   }
+  ]
  },
  {
   "id": "zheng2020painevoked",
@@ -15267,7 +15607,15 @@
   },
   "crossref_checked": true,
   "citation_original": "Yu, H., Koban, L., Crockett, M. J., Zhou, X & Wager, T. D. (2020). Toward a Brain-Based Bio-Marker of Guilt. Neuroscience Insight. 15:2633105520957638. PMID: 32995750. [PDF]",
-  "citations_refreshed": "2026-09-27"
+  "citations_refreshed": "2026-09-27",
+  "neuromarkers": [
+   {
+    "id": "2019-yu-koban-guilt",
+    "name": "Interpersonal guilt",
+    "url": "https://neuromarkers.io/marker/2019-yu-koban-guilt/",
+    "img": "assets/img/neuromarkers/2019-yu-koban-guilt.jpg"
+   }
+  ]
  },
  {
   "id": "borsook2020enhancing",
@@ -15413,6 +15761,11 @@
     "type": "video",
     "label": "Video Abstract",
     "url": "https://www.youtube.com/watch?v=kcDfEkoQa7Y&feature=youtu.be"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/cocoanlab/interpret_ml_neuroimaging"
    }
   ],
   "has_pdf": true,
@@ -15570,7 +15923,15 @@
   },
   "crossref_checked": true,
   "citation_original": "Geuter, S, Losin, R. E. A., Roy, M., Atlas, L. Y., Schmidt, L., Krishnan, A., Koban, L., Wager, T. D. & Lindquist, M. A. (2020). Multiple Brain Networks Mediating Stimulus–Pain Relationships in Humans. Cerebral Cortex. 30(7): 4204–4219. PMCID: PMC7264706. [PDF]",
-  "citations_refreshed": "2026-09-21"
+  "citations_refreshed": "2026-09-21",
+  "neuromarkers": [
+   {
+    "id": "2020-geuter-pain-multivariate-mediation-pdm",
+    "name": "Pain mediation · PDM",
+    "url": "https://neuromarkers.io/marker/2020-geuter-pain-multivariate-mediation-pdm/",
+    "img": "assets/img/neuromarkers/2020-geuter-pain-multivariate-mediation-pdm.jpg"
+   }
+  ]
  },
  {
   "id": "duff2020inferring",
@@ -15726,6 +16087,11 @@
     "url": "pdf/reddan2020touch.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2021/01/2020_Reddan_SocCognAffNeursci.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "paradigm",
+    "label": "Paradigm (GitHub)",
+    "url": "https://github.com/canlab/Paradigms_Public/tree/master/2020_Reddan_InterpersonalTouchPain"
    }
   ],
   "has_pdf": true,
@@ -15987,7 +16353,15 @@
   "crossref_checked": true,
   "abstract_source": "pdf",
   "citation_original": "Zhou. F, Li, J., Zhao, W., Xu, L., Zheng, X., Fu, M., Yao, S., Kendrick, K. M., Wager, T. D. & Becker, B. (2020). Empathic pain evoked by sensory and emotional-communicative cues share common and process-specific neural representation. eLife. 9: e56929. PMCID: PMC7505665. [PDF], [Brain Pattern Mask], [Dataset]",
-  "citations_refreshed": "2026-09-27"
+  "citations_refreshed": "2026-09-27",
+  "neuromarkers": [
+   {
+    "id": "2020-zhou-general-vicarious-pain",
+    "name": "General vicarious pain",
+    "url": "https://neuromarkers.io/marker/2020-zhou-general-vicarious-pain/",
+    "img": "assets/img/neuromarkers/2020-zhou-general-vicarious-pain.jpg"
+   }
+  ]
  },
  {
   "id": "losin2020neural",
@@ -16042,6 +16416,16 @@
     "url": "pdf/losin2020neural.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2020/05/2020_Losin_NatHumBeh.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "paradigm",
+    "label": "Paradigm (GitHub)",
+    "url": "https://github.com/canlab/Paradigms_Public/tree/master/2020_Losin_BMRK5_PainSound"
+   },
+   {
+    "type": "data",
+    "label": "Data (GitHub)",
+    "url": "https://github.com/canlab/CANlab_data_public/tree/master/2020_BMRK5_behavioral_Losin_NHB"
    }
   ],
   "has_pdf": true,
@@ -16799,7 +17183,15 @@
   },
   "crossref_checked": true,
   "citation_original": "Silvestrini, N., Chen, J.-I, Piché, M., Roy, M., Vachon-Presseau, E., Woo, C.-W., Wager, T. D., & Rainville, P. (2020). Distinct fMRI patterns colocalized in the cingulate cortex underlie the after-effects of cognitive control on pain. NeuroImage. 217: 116898. PMID: 32376300. [PDF], [Brain Pattern Mask]",
-  "citations_refreshed": "2026-09-25"
+  "citations_refreshed": "2026-09-25",
+  "neuromarkers": [
+   {
+    "id": "2020-silvestrini-rainville-pain-cogcontrol-interaction-amcc",
+    "name": "Pain & cognitive control",
+    "url": "https://neuromarkers.io/marker/2020-silvestrini-rainville-pain-cogcontrol-interaction-amcc/",
+    "img": "assets/img/neuromarkers/2020-silvestrini-rainville-pain-cogcontrol-interaction-amcc.jpg"
+   }
+  ]
  },
  {
   "id": "mitsikostas2020european",
@@ -17106,6 +17498,11 @@
     "url": "pdf/goldstein2020clinicianpatient.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2020/06/2020_Goldstein_JPain.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "data",
+    "label": "Data (GitHub)",
+    "url": "https://github.com/canlab/CANlab_data_public/tree/master/2019_Goldstein_Doc_Patient_Movement_Sync"
    }
   ],
   "has_pdf": true,
@@ -17229,6 +17626,11 @@
     "type": "maps",
     "label": "Brain pattern (signature)",
     "url": "https://github.com/canlab/Neuroimaging_Pattern_Masks/tree/master/Multivariate_signature_patterns/2020_VanOudenhove_Kragel_somatovisceral_pain"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/canlab/2020_Visceral_and_Somatic_Pain"
    }
   ],
   "has_pdf": true,
@@ -17331,6 +17733,11 @@
     "type": "maps",
     "label": "Brain pattern (signature)",
     "url": "https://github.com/canlab/Neuroimaging_Pattern_Masks/tree/master/Multivariate_signature_patterns/2019_Matthewson_Woo_SCR_pain"
+   },
+   {
+    "type": "paradigm",
+    "label": "Paradigm (GitHub)",
+    "url": "https://github.com/canlab/Paradigms_Public/tree/master/2018_Woo_Matthewson_CRB_autonomic_physio_pain"
    }
   ],
   "has_pdf": true,
@@ -17567,7 +17974,15 @@
   "crossref_checked": true,
   "citation_original": "Kragel, P. A., Reddan, M. C., LaBar, K. S., & Wager, T. D. (2019). Emotion schemas are embedded in the human visual system. Science Advances. 5(7): eaaw4358. PMCID: PMC6656543. [PDF], [EmoNet]",
   "preprint_doi": "10.1101/470237",
-  "citations_refreshed": "2026-09-23"
+  "citations_refreshed": "2026-09-23",
+  "neuromarkers": [
+   {
+    "id": "2019-kragel-emotion-schemas",
+    "name": "Emotion schemas",
+    "url": "https://neuromarkers.io/marker/2019-kragel-emotion-schemas/",
+    "img": "assets/img/neuromarkers/2019-kragel-emotion-schemas.jpg"
+   }
+  ]
  },
  {
   "id": "munafo2019power",
@@ -17787,6 +18202,11 @@
     "url": "pdf/woo2019falsepositive.pdf",
     "url_original": "https://doi.org/10.1101/514521",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/cocoanlab/falsepositiveneuroimaging"
    }
   ],
   "has_pdf": true,
@@ -18926,6 +19346,11 @@
     "url": "pdf/chen2019socially.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2020/03/Chen_2019_NatHumBehav-1.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/cosanlab/socially_transmitted_placebo_effects"
    }
   ],
   "has_pdf": true,
@@ -20230,7 +20655,15 @@
   },
   "crossref_checked": true,
   "citation_original": "Kragel, P. A., Kano, M., Van Oudenhove, L., Ly, H. G., Dupont, P., Rubio, A., Delon-Martin, C., Bonaz, B. L., Manuck, S. B., Gianaros, P. J., Ceko, M., Losin, R. E. A., Woo, C. W., Nichols, T. E., Wager, T. D. (2018). Generalizable representations of pain, cognitive control, and negative emotion in medial frontal cortex. Nature neuroscience. 21(2): 283-289. PMCID: PMC5801068. [PDF], [Code], [Brain Model]",
-  "citations_refreshed": "2026-09-22"
+  "citations_refreshed": "2026-09-22",
+  "neuromarkers": [
+   {
+    "id": "2018-kragel-mfc-generalizability",
+    "name": "Medial frontal cortex patterns",
+    "url": "https://neuromarkers.io/marker/2018-kragel-mfc-generalizability/",
+    "img": "assets/img/neuromarkers/2018-kragel-mfc-generalizability.jpg"
+   }
+  ]
  },
  {
   "id": "koban2018generalization",
@@ -20675,6 +21108,11 @@
     "url": "pdf/jepma2018behavioural.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2019/10/Jepma_et_al-2018-Nature_Human_Behaviour.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "data",
+    "label": "Data (GitHub)",
+    "url": "https://github.com/canlab/CANlab_data_public/tree/master/2018_Jepma_NHB_behavioral_data"
    }
   ],
   "has_pdf": true,
@@ -20864,6 +21302,11 @@
     "type": "maps",
     "label": "Brain Model",
     "url": "https://github.com/canlab/Neuroimaging_Pattern_Masks/tree/master/Multivariate_signature_patterns/2018_Reddan_Threat_Conditioning_ImEx"
+   },
+   {
+    "type": "code",
+    "label": "Code and data (GitHub)",
+    "url": "https://github.com/canlab/Attenuating_neural_threat_expression_with_imagination_2018"
    }
   ],
   "has_pdf": true,
@@ -20908,7 +21351,15 @@
   },
   "crossref_checked": true,
   "citation_original": "Reddan, M. C., Wager T. D., & Schiller D. (2018). Attenuating Neural Threat Expression with Imagination. Neuron. 100(4): 994-1005. PMCID: PMC6314478. [PDF], [Brain Model]",
-  "citations_refreshed": "2026-09-24"
+  "citations_refreshed": "2026-09-24",
+  "neuromarkers": [
+   {
+    "id": "2018-reddan-threat-conditioning-imex",
+    "name": "ImEx · Conditioned threat",
+    "url": "https://neuromarkers.io/marker/2018-reddan-threat-conditioning-imex/",
+    "img": "assets/img/neuromarkers/2018-reddan-threat-conditioning-imex.jpg"
+   }
+  ]
  },
  {
   "id": "zunhammer2018placebo",
@@ -20950,6 +21401,11 @@
     "url": "pdf/zunhammer2018placebo.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2019/10/jamaneurology_Zunhammer_2018_oi_180047.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/mzunhammer/PlaceboImagingMetaAnalysis"
    }
   ],
   "has_pdf": true,
@@ -21424,6 +21880,11 @@
     "type": "maps",
     "label": "Brain Model",
     "url": "https://github.com/canlab/Neuroimaging_Pattern_Masks/tree/master/CANlab_Meta_analysis_maps/2017_delaVega_Neurosynth_cortical_parcellation"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/adelavega/neurosynth-lfc"
    }
   ],
   "has_pdf": true,
@@ -21849,7 +22310,15 @@
   },
   "crossref_checked": true,
   "citation_original": "Woo, C. W., Schmidt, L., Krishnan, A., Jepma, M., Roy, M., Lindquist, M. A., Atlas, L. Y. & Wager, T. D. (2017). Quantifying cerebral contributions to pain beyond nociception. Nature Communications. 8: 14211. PMCID: PMC5316889 [PDF], [Brain Model]",
-  "citations_refreshed": "2026-09-27"
+  "citations_refreshed": "2026-09-27",
+  "neuromarkers": [
+   {
+    "id": "2017-woo-siips1",
+    "name": "SIIPS1 · Cerebral contributions to pain",
+    "url": "https://neuromarkers.io/marker/2017-woo-siips1/",
+    "img": "assets/img/neuromarkers/2017-woo-siips1.jpg"
+   }
+  ]
  },
  {
   "id": "anon2017chang",
@@ -22311,7 +22780,15 @@
   },
   "crossref_checked": true,
   "citation_original": "Ashar, Y. K., Andrews-Hanna, J. R. , Dimidjian, S. & Wager, T. D. (2017). Empathic Care and Distress: Predictive Brain Markers and Dissociable Brain Systems. Neuron. 94(6): 1263-1273. PMCID: PMC5532453. [PDF], [Brain Model]",
-  "citations_refreshed": "2026-09-25"
+  "citations_refreshed": "2026-09-25",
+  "neuromarkers": [
+   {
+    "id": "2017-ashar-care-distress",
+    "name": "Empathic care & distress",
+    "url": "https://neuromarkers.io/marker/2017-ashar-care-distress/",
+    "img": "assets/img/neuromarkers/2017-ashar-care-distress.jpg"
+   }
+  ]
  },
  {
   "id": "chen2017highdimensional",
@@ -23308,6 +23785,11 @@
     "url": "pdf/cremers2017relation.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2019/12/2017_Cremers_PLoS.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/henkcremers/Simulate-Sampling-fMRI"
    }
   ],
   "has_pdf": true,
@@ -24166,6 +24648,11 @@
     "url": "pdf/woo2016what.pdf",
     "url_original": "https://sites.dartmouth.edu/canlab/files/2019/12/2016_Woo_Pain.pdf",
     "version": "publisher"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/wanirepo/Woo_TRR_commentary_PAIN"
    }
   ],
   "has_pdf": true,
@@ -24781,6 +25268,11 @@
     "type": "maps",
     "label": "Brain Model",
     "url": "https://github.com/canlab/Neuroimaging_Pattern_Masks/tree/master/Multivariate_signature_patterns/2016_Krishnan_eLife_VPS"
+   },
+   {
+    "type": "paradigm",
+    "label": "Paradigm (GitHub)",
+    "url": "https://github.com/canlab/Paradigms_Public/tree/master/2016_Krishnan_eLife_BMRK4"
    }
   ],
   "has_pdf": true,
@@ -24823,7 +25315,15 @@
   },
   "crossref_checked": true,
   "citation_original": "Krishnan, A., Woo, C. W., Chang, L. J., Ruzic, L., Gu, X., Lopez-Sola, M., Jackson, P. L., Pujol, J., Fan, J. & Wager, T. D. (2016). Somatic and vicarious pain are represented by dissociable multivariate brain patterns. eLife. 5:e15166. PMCID: PMC4907690. [PDF], [Brain Model]",
-  "citations_refreshed": "2026-09-22"
+  "citations_refreshed": "2026-09-22",
+  "neuromarkers": [
+   {
+    "id": "2016-krishnan-elife-vps",
+    "name": "VPS · Vicarious pain",
+    "url": "https://neuromarkers.io/marker/2016-krishnan-elife-vps/",
+    "img": "assets/img/neuromarkers/2016-krishnan-elife-vps.jpg"
+   }
+  ]
  },
  {
   "id": "delavega2016largescale",
@@ -24880,6 +25380,11 @@
     "type": "maps",
     "label": "Brain Model",
     "url": "https://github.com/canlab/Neuroimaging_Pattern_Masks/tree/master/CANlab_Meta_analysis_maps/2016_delaVega_JN_neurosynth-mfc_parcellation"
+   },
+   {
+    "type": "code",
+    "label": "Code (GitHub)",
+    "url": "https://github.com/adelavega/neurosynth-mfc"
    }
   ],
   "has_pdf": true,
@@ -25091,6 +25596,11 @@
     "type": "paradigm",
     "label": "Paradigm",
     "url": "https://github.com/canlab/Paradigms_Public/tree/master/2016_Ashar_CharitableDonationCompassion_online_app"
+   },
+   {
+    "type": "data",
+    "label": "Data (GitHub)",
+    "url": "https://github.com/yonestar/Ashar-et-al-2016-Emotion"
    }
   ],
   "has_pdf": true,
@@ -25400,7 +25910,15 @@
   },
   "crossref_checked": true,
   "citation_original": "Eisenbarth, H., Chang, L. J., & Wager, T. D. (2016). Multivariate Brain Prediction of Heart Rate and Skin Conductance Responses to Social Threat. The Journal of Neuroscience. 36(47):11987-11998. PMCID: PMC5125248. [PDF], [Brain Model]",
-  "citations_refreshed": "2026-09-21"
+  "citations_refreshed": "2026-09-21",
+  "neuromarkers": [
+   {
+    "id": "2016-eisenbarth-jneuro-autonomic-patterns",
+    "name": "Autonomic responses · GSR & HR",
+    "url": "https://neuromarkers.io/marker/2016-eisenbarth-jneuro-autonomic-patterns/",
+    "img": "assets/img/neuromarkers/2016-eisenbarth-jneuro-autonomic-patterns.jpg"
+   }
+  ]
  },
  {
   "id": "borsook2015pharmacological",
@@ -27088,7 +27606,15 @@
   },
   "crossref_checked": true,
   "citation_original": "Chang, L. J., Gianaros, P. J., Manuck, S. B., Krishnan, A., & Wager, T. D. (2015). A Sensitive and Specific Neural Signature for Picture-Induced Negative Affect. PLoS Biology. 13(6): e1002180. PMCID: PMC4476709. [PDF], [Brain Model]",
-  "citations_refreshed": "2026-09-27"
+  "citations_refreshed": "2026-09-27",
+  "neuromarkers": [
+   {
+    "id": "2015-chang-plosbiology-pines",
+    "name": "PINES · Negative affect",
+    "url": "https://neuromarkers.io/marker/2015-chang-plosbiology-pines/",
+    "img": "assets/img/neuromarkers/2015-chang-plosbiology-pines.jpg"
+   }
+  ]
  },
  {
   "id": "gianaros2015brainbody",
@@ -29781,7 +30307,15 @@
   },
   "crossref_checked": true,
   "citation_original": "Woo, C. W., Koban, L., Kross, E., Lindquist, M. A., Banich, M. T., Ruzic, L., Andrews-Hanna, J. R. & Wager, T. D. (2014). Separate Neural Representations for Physical Pain and Social Rejection. Nature Communications. 5:5380. PMCID: PMC4285151. [PDF], [Brain Model]",
-  "citations_refreshed": "2026-09-27"
+  "citations_refreshed": "2026-09-27",
+  "neuromarkers": [
+   {
+    "id": "2015-woo-naturecomms-rejection",
+    "name": "Romantic rejection & physical pain",
+    "url": "https://neuromarkers.io/marker/2015-woo-naturecomms-rejection/",
+    "img": "assets/img/neuromarkers/2015-woo-naturecomms-rejection.jpg"
+   }
+  ]
  },
  {
   "id": "atlas2013expectations",
@@ -32424,7 +32958,15 @@
   },
   "crossref_checked": true,
   "citation_original": "Wager, T. D., Atlas, L. Y., Leotti, L. A., & Rilling, J. K. (2011). Predicting individual differences in placebo analgesia: Contributions of brain activity during anticipation and pain experience. The Journal of Neuroscience. 31(2):439-452. NIHMSID: NIHMS355850 PMID: 21228154. [PDF], [Brain Model]",
-  "citations_refreshed": "2026-09-26"
+  "citations_refreshed": "2026-09-26",
+  "neuromarkers": [
+   {
+    "id": "2011-wager-jneuro-placebo-prediction",
+    "name": "Placebo analgesia",
+    "url": "https://neuromarkers.io/marker/2011-wager-jneuro-placebo-prediction/",
+    "img": "assets/img/neuromarkers/2011-wager-jneuro-placebo-prediction.jpg"
+   }
+  ]
  },
  {
   "id": "kang2011metaanalysis",
