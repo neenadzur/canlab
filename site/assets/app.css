@@ -261,6 +261,17 @@ mark { background: var(--amber-soft); color: inherit; padding: 0 .1em; border-ra
 .paper .links a.plink.pdf, .detail .plinks a.plink.pdf { background: var(--amber-soft); border-color: transparent; color: var(--ink); font-weight: 600; }
 .paper .links a.plink.maps, .detail .plinks a.plink.maps { background: var(--steel-soft); border-color: transparent; color: var(--steel-deep); }
 .paper .links a.plink.detail { border-style: dashed; }
+.paper .links a.plink.code, .detail .plinks a.plink.code, .paper .links a.plink.paradigm, .detail .plinks a.plink.paradigm, .paper .links a.plink.data, .detail .plinks a.plink.data { border-color: var(--steel); color: var(--steel-deep); }
+.paper .links a.plink.nm, .detail .plinks a.plink.nm { background: var(--ink); border-color: transparent; color: var(--bg); }
+.nm-tiles { display: grid; gap: .7rem; }
+.nm-tile { display: flex; gap: 1rem; align-items: stretch; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: var(--bg-2); color: var(--ink); text-decoration: none; transition: border-color .25s, transform .25s var(--ease), box-shadow .25s; }
+.nm-tile:hover { border-color: var(--amber); transform: translateY(-2px); box-shadow: var(--shadow); text-decoration: none; }
+.nm-tile img { flex: none; width: 180px; height: auto; aspect-ratio: 36 / 26; object-fit: cover; background: #000; display: block; }
+.nm-tile .nm-body { display: flex; flex-direction: column; justify-content: center; gap: .25rem; padding: .8rem 1rem .8rem 0; }
+.nm-tile .nm-kicker { font-family: "JetBrains Mono", ui-monospace, monospace; font-size: .72rem; letter-spacing: .04em; text-transform: uppercase; color: var(--amber-deep); }
+.nm-tile b { font-family: Fraunces, Georgia, serif; font-weight: 400; font-size: 1.2rem; }
+.nm-tile .go { font-weight: 600; font-size: .88rem; }
+@media (max-width: 560px) { .nm-tile { flex-direction: column; gap: 0; } .nm-tile img { width: 100%; max-height: 190px; object-fit: contain; } .nm-tile .nm-body { padding: .8rem 1rem; } }
 .paper .links { gap: .4rem; }
 .year-head { font-family: var(--serif); font-size: 1.5rem; margin: 1.6rem 0 .5rem; display: flex; align-items: baseline; gap: .7rem; scroll-margin-top: 90px; }
 .year-head::after { content: ""; flex: 1; height: 1px; background: var(--line); }

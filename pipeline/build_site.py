@@ -116,6 +116,7 @@ def slim(r):
         "links": r.get("links", []), "s": r.get("summary") or "", "cit": r.get("cited_by_count"),
         "tags": tags, "kw": (r.get("free_keywords") or [])[:8], "added": r.get("date_added") or "", "ab": bool(r.get("abstract")),
         "comm": r.get("commentaries") or [], "trunc": bool(r.get("authors_truncated")),
+        "nm": r.get("neuromarkers") or [],
     }
 
 
@@ -151,10 +152,12 @@ def paper_page(r, s, tax, related):
     for l in r.get("links", []):
         if l["type"] not in ("pdf", "publisher"):
             links.append(f'<a class="btn" href="{esc(l["url"])}">{esc(l["label"])}</a>')
+    nm = "".join(f'<a class="nm-tile" href="{esc(m["url"])}"><img src="{esc(m["img"])}" alt="" width="180" height="130"><span class="nm-body"><span class="nm-kicker">Neuromarker Gallery · neuromarkers.io</span><b>{esc(m["name"])}</b><span class="go">Open in the gallery ↗</span></span></a>' for m in r.get("neuromarkers") or [])
     static = f"""<div class="meta small muted">{esc(r.get('journal') or '')} · {esc(r.get('year') or '')}</div>
     <h1>{esc(title)}</h1>
     <div class="small">{esc(s['al'])}</div>
     <div class="links" style="display:flex;gap:.5rem;flex-wrap:wrap">{''.join(links)}</div>
+    {('<div class="nm-tiles">' + nm + '</div>') if nm else ''}
     {('<div class="callout"><b>In one sentence.</b> ' + esc(r['summary']) + '</div>') if r.get('summary') else ''}
     <div><h3 style="margin-bottom:.3rem">Abstract</h3><div class="abstract">{esc(r.get('abstract') or 'No abstract available; see the publisher page.')}</div></div>
     <div><h3 style="margin-bottom:.5rem">Keywords</h3><div class="chips">{chips}</div></div>
