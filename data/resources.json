@@ -58,6 +58,18 @@
  "tools_intro": "CANlab develops open-source tools for neuroimaging analysis, hosted at canlab.github.io with linked GitHub repositories and step-by-step walkthroughs.",
  "tools": [
   {
+   "title": "Neuromarker Gallery (neuromarkers.io)",
+   "url": "https://neuromarkers.io",
+   "blurb": "An interactive gallery of published fMRI brain signatures (neuromarkers) for pain, emotion, reward, social and cognitive processes: search by domain, view each pattern in three planes and on the cortical surface, and download the maps.",
+   "extra": [
+    {
+     "label": "Source maps on GitHub",
+     "url": "https://github.com/canlab/Neuroimaging_Pattern_Masks"
+    }
+   ],
+   "thumb": "tool-neuromarkers.jpg"
+  },
+  {
    "title": "canlab.github.io",
    "url": "https://canlab.github.io/",
    "blurb": "The hub for CANlab analysis tools: linked repositories, walkthroughs and tutorials.",

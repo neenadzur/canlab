@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Resources | CANlab</title>
+<meta name="description" content="CANlab resources: the Neuromarker Gallery, fMRI analysis code, open data, task paradigms, the journal club, reading lists, the collaborator network, bibliometrics, tutorials and courses.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..600,0..100;1,9..144,300..600,0..100&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<meta property="og:site_name" content="CANlab">
+<meta property="og:title" content="Resources | CANlab">
+<meta property="og:description" content="Brain signatures, analysis code, open data, task paradigms, tutorials and more from CANlab.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://torwager.github.io/canlab/explore.html">
+<meta property="og:image" content="https://torwager.github.io/canlab/assets/og.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://torwager.github.io/canlab/assets/og.jpg">
+<link rel="canonical" href="https://torwager.github.io/canlab/explore.html">
+<link rel="icon" href="assets/favicon.svg?v=3" type="image/svg+xml"><link rel="alternate icon" href="assets/favicon-32.png?v=3" sizes="32x32"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=3">
+<link rel="stylesheet" href="assets/app.css?v=7">
+</head>
+<body>
+<style>
+  .explore-head { display: flex; align-items: baseline; gap: 1rem; flex-wrap: wrap; margin: 1.2rem 0 1rem; }
+  .explore-head h1 { margin: 0; font-size: clamp(1.6rem, 2.6vw, 2.1rem); }
+  .explore-head p { margin: 0; color: var(--muted); font-size: .95rem; }
+  .xgrid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .9rem; margin-bottom: 2rem; }
+  .xtile { position: relative; display: flex; flex-direction: column; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow); overflow: hidden; color: var(--ink); text-decoration: none; transition: transform .3s var(--ease), box-shadow .3s var(--ease), border-color .3s; }
+  .xtile:hover { transform: translateY(-4px); border-color: var(--amber); box-shadow: 0 2px 4px rgba(26,35,50,.04), 0 24px 40px -20px rgba(26,35,50,.25); text-decoration: none; }
+  .xtile .img { aspect-ratio: 2 / 1; max-height: 118px; overflow: hidden; background: var(--bg-2); }
+  .xtile .img img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .35s var(--ease); }
+  .xtile:hover .img img { transform: scale(1.06); }
+  .xtile .body { padding: .6rem .85rem .75rem; display: grid; gap: .15rem; }
+  .xtile h3 { margin: 0; font-size: 1.05rem; display: flex; justify-content: space-between; gap: .5rem; }
+  .xtile h3 .arr { color: var(--amber-deep); font-family: Inter, system-ui, sans-serif; font-size: .9rem; flex: none; }
+  .xtile p { margin: 0; color: var(--muted); font-size: .82rem; line-height: 1.35; }
+  @media (max-width: 1100px) { .xgrid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  @media (max-width: 760px) { .xgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 460px) { .xgrid { grid-template-columns: 1fr; } }
+  @media (prefers-reduced-motion: reduce) { .xtile, .xtile .img img { transition: none; } }
+</style>
+<div id="site-header"></div>
+<main class="wrap">
+  <div class="explore-head"><h1>Resources</h1><p>Tools, data and ways to explore the lab's work.</p></div>
+  <div class="xgrid" id="xgrid"></div>
+</main>
+<div id="site-footer"></div>
+<script src="assets/config.js?v=7"></script>
+<script src="assets/app.js?v=7"></script>
+<script src="assets/layout.js?v=7"></script>
+<script>
+(function () {
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const ext = u => /^https?:/.test(u);
+  document.getElementById("xgrid").innerHTML = (window.CANLAB_EXPLORE || []).map(e => `<a class="xtile" href="${esc(e.url)}"${ext(e.url) ? ' target="_blank" rel="noopener"' : ""}>
+    <span class="img"><img src="assets/img/explore/${esc(e.img)}" alt="" width="480" height="240"></span>
+    <span class="body"><h3>${esc(e.title)}<span class="arr">${ext(e.url) ? "↗" : "→"}</span></h3><p>${esc(e.blurb)}</p></span></a>`).join("");
+})();
+</script>
+</body>
+</html>

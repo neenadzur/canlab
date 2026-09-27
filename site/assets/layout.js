@@ -1,6 +1,22 @@
 /* Shared header/footer, header scroll state, mobile nav, active link, scroll reveals, analytics beacon. */
 (function () {
   const C = window.CANLAB_CONFIG || {};
+  // Explore menu = the tiles on explore.html (one list for both)
+  const EXPLORE = window.CANLAB_EXPLORE = [
+    { title: "Neuromarker Gallery", url: "https://neuromarkers.io", img: "neuromarkers.jpg", blurb: "Browse, view and download published brain signatures (NPS, SIIPS, PINES and more)." },
+    { title: "fMRI analysis code", url: "https://github.com/canlab", img: "code.jpg", blurb: "CANlab toolboxes on GitHub: CanlabCore, mediation, meta-analysis and more." },
+    { title: "Open data", url: "https://github.com/canlab/CANlab_data_public", img: "data.jpg", blurb: "Shared behavioural and physiological datasets from published studies." },
+    { title: "Task paradigms", url: "https://github.com/canlab/Paradigms_Public", img: "paradigms.jpg", blurb: "Experimental task code from published studies, ready to run." },
+    { title: "Journal club", url: "journal-club.html", img: "journal-club.jpg", blurb: "Papers the lab is reading, searchable by topic and method." },
+    { title: "My reading list", url: "mylist.html", img: "mylist.jpg", blurb: "Star papers into lists and export them to your reference manager." },
+    { title: "Collaborator network", url: "network.html", img: "network.jpg", blurb: "An interactive map of the lab's co-authors." },
+    { title: "Bibliometrics", url: "bibliometrics.html", img: "bibliometrics.jpg", blurb: "Publications, topics and methods over the years." },
+    { title: "Science of Placebo", url: "https://scienceofplacebo.org", img: "placebo.jpg", blurb: "A research hub on placebo and nocebo effects." },
+    { title: "Elements of fMRI tutorials", url: "https://torwager.github.io/elements-of-fmri-tutorials", img: "elements.jpg", blurb: "Hands-on tutorials that accompany the MIT Press book." },
+    { title: "PBS shared resources", url: "https://dbic.github.io/PBS_resources/", img: "pbs.jpg", blurb: "Shared research resources for Dartmouth Psychological and Brain Sciences." },
+    { title: "fMRI course (MIND)", url: "https://torwager.github.io/mindfmricourse", img: "mind-course.jpg", blurb: "Image acquisition and analysis with SPM and ICA." },
+  ];
+  const ext = u => /^https?:/.test(u) ? ' target="_blank" rel="noopener"' : "";
   const header = `<header class="site-header solid"><div class="wrap">
     <a class="brand" href="./"><span class="brand-mark" aria-hidden="true"><img src="assets/logo-mark.png" alt="" width="26" height="26"></span><span><b>CAN</b>lab</span></a>
     <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span></span></button>
@@ -10,15 +26,15 @@
       <a href="publications.html">Publications</a>
       <a href="news.html">News</a>
       <a href="resources.html">Tools &amp; training</a>
-      <div class="menu"><a href="network.html" class="menu-btn" aria-haspopup="true" aria-expanded="false">Explore ▾</a>
-        <div class="menu-list"><a href="journal-club.html">Journal club</a><a href="mylist.html">My reading list</a><a href="network.html">Collaborator network</a><a href="bibliometrics.html">Bibliometrics</a><a href="https://scienceofplacebo.org" target="_blank" rel="noopener">Science of Placebo</a><a href="https://torwager.github.io/elements-of-fmri-tutorials" target="_blank" rel="noopener">Elements of fMRI tutorials</a><a href="https://dbic.github.io/PBS_resources/" target="_blank" rel="noopener">PBS shared resources</a><a href="https://torwager.github.io/mindfmricourse" target="_blank" rel="noopener">fMRI course (MIND)</a></div></div>
+      <div class="menu"><a href="explore.html" class="menu-btn" aria-haspopup="true" aria-expanded="false">Explore ▾</a>
+        <div class="menu-list"><a href="explore.html"><b>All resources</b></a>${EXPLORE.map(e => `<a href="${e.url}"${ext(e.url)}>${e.title}</a>`).join("")}</div></div>
       <div class="menu"><a href="join.html" class="menu-btn" aria-haspopup="true" aria-expanded="false">Join ▾</a>
         <div class="menu-list"><a href="join.html#team">Join our team</a><a href="join.html#participate">Participate in research</a></div></div>
     </nav></div></header>`;
   const footer = `<footer class="site-footer"><div class="wrap">
     <div><strong>Cognitive and Affective Neuroscience Lab</strong>Dartmouth College, Hanover NH. Directed by Tor Wager. We study the neurophysiology of pain, emotion, stress and empathy, and how they are shaped by beliefs, expectations and social context. <span id="foot-updated"></span></div>
     <div><strong>Lab</strong><ul><li><a href="research.html">Research</a></li><li><a href="people.html">People</a></li><li><a href="publications.html">Publications</a></li><li><a href="news.html">News</a></li><li><a href="join.html">Join us / participate</a></li><li><a href="mylist.html">My list</a></li><li><a href="account.html">Sign in</a></li><li><a href="about.html">About this site</a></li><li><a href="feed.xml">RSS: new papers</a></li></ul></div>
-    <div><strong>Resources</strong><ul><li><a href="resources.html">Tools &amp; training</a></li><li><a href="https://canlab.github.io" target="_blank" rel="noopener">canlab.github.io</a></li><li><a href="https://github.com/canlab" target="_blank" rel="noopener">CANlab on GitHub</a></li><li><a href="https://scienceofplacebo.org" target="_blank" rel="noopener">Science of Placebo</a></li><li><a href="https://github.com/${C.repo || "torwager/canlab"}" target="_blank" rel="noopener">This site's source &amp; data</a></li></ul></div>
+    <div><strong>Resources</strong><ul><li><a href="explore.html">All resources</a></li><li><a href="resources.html">Tools &amp; training</a></li><li><a href="https://neuromarkers.io" target="_blank" rel="noopener">Neuromarker Gallery</a></li><li><a href="https://canlab.github.io" target="_blank" rel="noopener">canlab.github.io</a></li><li><a href="https://github.com/canlab" target="_blank" rel="noopener">CANlab on GitHub</a></li><li><a href="https://scienceofplacebo.org" target="_blank" rel="noopener">Science of Placebo</a></li><li><a href="https://github.com/${C.repo || "torwager/canlab"}" target="_blank" rel="noopener">This site's source &amp; data</a></li></ul></div>
     <div class="credit-row"><span class="credit">Designed by <a href="https://torwager.github.io" target="_blank" rel="noopener">Tor Wager</a> · Cognitive and Affective Neuroscience Lab · Dartmouth College</span></div>
   </div></footer>`;
   const h = document.getElementById("site-header"); if (h) h.outerHTML = header;

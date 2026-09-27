@@ -9596,7 +9596,8 @@
      "reward_craving"
     ],
     "approach": [
-     "fmri"
+     "fmri",
+     "neuromarker"
     ],
     "type": [
      "empirical"
@@ -26324,7 +26325,8 @@
     "approach": [
      "psychophysiology",
      "open_tools",
-     "behavioral"
+     "behavioral",
+     "neuromarker"
     ],
     "type": [
      "empirical"
@@ -33284,7 +33286,8 @@
     "approach": [
      "neuroimaging_methods",
      "machine_learning",
-     "mega_analysis"
+     "mega_analysis",
+     "neuromarker"
     ],
     "type": [
      "methods"
@@ -38878,7 +38881,8 @@
     ],
     "approach": [
      "machine_learning",
-     "brain_stimulation"
+     "brain_stimulation",
+     "neuromarker"
     ],
     "type": [
      "empirical"
@@ -43459,7 +43463,8 @@
      "fmri",
      "machine_learning",
      "mega_analysis",
-     "open_tools"
+     "open_tools",
+     "neuromarker"
     ],
     "type": [
      "methods"
@@ -51527,7 +51532,8 @@
      "perception"
     ],
     "approach": [
-     "computational_model"
+     "computational_model",
+     "neuromarker"
     ],
     "type": [
      "empirical"
@@ -53383,7 +53389,8 @@
     "approach": [
      "neuroimaging_methods",
      "machine_learning",
-     "open_tools"
+     "open_tools",
+     "neuromarker"
     ],
     "type": [
      "methods"
@@ -54993,7 +55000,8 @@
      "fmri",
      "neuroimaging_methods",
      "machine_learning",
-     "open_tools"
+     "open_tools",
+     "neuromarker"
     ],
     "type": [
      "methods"
@@ -72758,7 +72766,12 @@
    "pdf_url": null,
    "permalink": "https://canlab.slack.com/archives/C0NT0J4F8/p1533673945000357",
    "kind": "link",
-   "n_comments": 2
+   "n_comments": 2,
+   "tags": {
+    "approach": [
+     "neuromarker"
+    ]
+   }
   },
   {
    "id": "shared2018functionalb",
@@ -72931,7 +72944,8 @@
     ],
     "approach": [
      "fmri",
-     "machine_learning"
+     "machine_learning",
+     "neuromarker"
     ],
     "type": [
      "empirical"
