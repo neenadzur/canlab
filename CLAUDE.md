@@ -88,7 +88,13 @@ Inherited from scienceofplacebo.org so the two sites read as a family.
   EXPLORE array in layout.js (Neuromarker Gallery, fMRI analysis code = github.com/canlab, Open data =
   CANlab_data_public, Task paradigms = Paradigms_Public, Journal club, My reading list, Collaborator
   network, Bibliometrics, Science of Placebo, Elements of fMRI tutorials, PBS shared resources, fMRI
-  course). Tile images live in assets/img/explore/ (480x240, no people). Tools & training lists the
+  course). Tile images live in assets/img/explore/ (480x240, no people, bump the ?v= in explore.html when replacing):
+each shows its topic (brain map for the gallery, a MATLAB snippet for code, a violin plot for data, a trial
+sequence for paradigms, real screenshots of the journal-club search, a starred list, the network and a
+bibliometrics bar chart). The Tools & training tool thumbnails use the same pictures (tool-code, tool-data,
+tool-paradigm-design, tool-neuromarker-gallery). Course cards take a wide 2:1 thumb (course-mind.jpg = Tor |
+Kent | Vince headshots from the MIND course site); the Coursera cards need a still of Tor and Martin from the
+videos (coursera.org is unreachable from the sandbox, so the PI supplies it). Tools & training lists the
   Neuromarker Gallery first among the tools. "My list", "Sign in",
   "About this site" live only in the footer. No Discussion board (removed on request).
 - Brand mark: the brain outline cropped from the lab logo, bold-stroked, in a 34px amber tile beside
@@ -229,9 +235,13 @@ batch-NN.tags.json; scripts/apply_tags.py validates ids against the taxonomy and
 36 batches for 400 papers; re-tag low-confidence ones once their PDFs are found. With an API key the
 daily pipeline tags candidates automatically (classify.py, structured JSON output).
 Automatic rule at build: any paper with a maps/code/data/paradigm link gets approach open_tools.
-PI rule (2026-09-27): a title containing "signature", "predictive model" or "neuromarker" always gets approach
-neuromarker (classify.NEUROMARKER_TITLE; applied in classify.apply and again in build_site.slim; the lab papers
-and journal-club items that lacked it were back-filled).
+Neuromarker tag policy (PI, 2026-09-28; replaces a short-lived title-keyword rule): on lab papers, approach
+neuromarker means the paper DEVELOPS a reusable signature/predictive model (every paper whose signature is in the
+neuromarkers.io library or Neuroimaging_Pattern_Masks/Multivariate_signature_patterns gets it automatically at
+build), or is a review/methods/commentary explicitly about signatures, or its main question is a specific
+signature's validity (reliability, specificity, generalisation). Papers that merely use a signature (e.g. NPS) as
+an outcome do NOT get it. "Signature" in a title is not enough: Berardi 2022 and Wager 2025 (the A2CPS program)
+are not neuromarker papers. Journal-club items keep the model's tags; Willmore 2022 and Kafashan 2021 were untagged.
 Genetics was added after the first pass and back-filled by keyword; expect to add values later too.
 Adding a value later (taxonomy 1.1.0 added the stimulation methods tms, tdcs and tis under the renamed
 umbrella brain_stimulation = "Neurostimulation (any)"): bump taxonomy_version and PROMPT_VERSION, say in

@@ -18,7 +18,7 @@ import shutil
 import time
 from collections import Counter, defaultdict
 from xml.sax.saxutils import escape
-from . import config, classify
+from . import config
 
 SITE_URL = config.SITE_URL
 
@@ -103,7 +103,8 @@ def merge_author_variants(papers):
 
 def slim(r):
     tags = {k: (v if isinstance(v, list) else [v]) for k, v in (r.get("tags") or {}).items() if v}
-    if classify.NEUROMARKER_TITLE.search(r.get("title") or "") and "neuromarker" not in tags.get("approach", []):
+    # a paper whose signature is in the Neuromarker Gallery or the Pattern_Masks signature folder is a neuromarker paper
+    if (r.get("neuromarkers") or any("Multivariate_signature_patterns" in l["url"] for l in r.get("links", []))) and "neuromarker" not in tags.get("approach", []):
         tags["approach"] = tags.get("approach", []) + ["neuromarker"]
     # a paper that links to a neuromarker, atlas, paradigm, code or dataset counts as releasing open tools
     if any(l["type"] in ("maps", "code", "data", "paradigm") for l in r.get("links", [])) and "open_tools" not in tags.get("approach", []):

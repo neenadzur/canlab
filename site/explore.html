@@ -54,7 +54,7 @@
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const ext = u => /^https?:/.test(u);
   document.getElementById("xgrid").innerHTML = (window.CANLAB_EXPLORE || []).map(e => `<a class="xtile" href="${esc(e.url)}"${ext(e.url) ? ' target="_blank" rel="noopener"' : ""}>
-    <span class="img"><img src="assets/img/explore/${esc(e.img)}" alt="" width="480" height="240"></span>
+    <span class="img"><img src="assets/img/explore/${esc(e.img)}?v=2" alt="" width="480" height="240"></span>
     <span class="body"><h3>${esc(e.title)}<span class="arr">${ext(e.url) ? "↗" : "→"}</span></h3><p>${esc(e.blurb)}</p></span></a>`).join("");
 })();
 </script>
