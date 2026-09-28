@@ -1,7 +1,86 @@
 {
- "updated": "2026-09-27",
+ "updated": "2026-09-28",
  "channel": null,
  "items": [
+  {
+   "id": "kay2020temporal",
+   "slack_ts": "1790527360.545349",
+   "shared_on": "2026-09-27",
+   "shared_by": "tor",
+   "n_comments": 0,
+   "reactions": [
+    {
+     "name": "+1::skin-tone-3",
+     "count": 1
+    },
+    {
+     "name": "+1",
+     "count": 2
+    },
+    {
+     "name": "+1::skin-tone-2",
+     "count": 1
+    }
+   ],
+   "url": "https://www.nature.com/articles/s41592-020-0941-6",
+   "doi": "10.1038/s41592-020-0941-6",
+   "title": "A temporal decomposition method for identifying venous effects in task-based fMRI",
+   "abstract": "The spatial resolution of functional magnetic resonance imaging (fMRI) is fundamentally limited by effects from large draining veins. Here we describe an analysis method that provides data-driven estimates of these effects in task-based fMRI. The method involves fitting a one-dimensional manifold that characterizes variation in response timecourses observed in a given dataset, and then using identified early and late timecourses as basis functions for decomposing responses into components related to the microvasculature (capillaries and small venules) and the macrovasculature (large veins), respectively. We show the removal of late components substantially reduces the superficial cortical depth bias of fMRI responses and helps eliminate artifacts in cortical activity maps. This method provides insight into the origins of the fMRI signal and can be used to improve the spatial accuracy of fMRI. Temporal decomposition through manifold fitting (TDM) is an analysis technique that decomposes blood oxygenation level dependent (BOLD) responses in task-based fMRI into different components that likely correspond to microvasculature- and macrovasculature-driven signals.",
+   "authors": [
+    "Kay, K.",
+    "Jamison, K. W.",
+    "Zhang, R.",
+    "Uğurbil, K."
+   ],
+   "journal": "Nature Methods",
+   "year": 2020,
+   "pdf_url": "https://www.nature.com/articles/s41592-020-0941-6.pdf",
+   "type": "journal-article",
+   "pmid": "32895538",
+   "pmcid": "PMC7721302",
+   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7721302",
+   "publisher_url": "https://doi.org/10.1038/s41592-020-0941-6",
+   "permalink": "https://canlab.slack.com/archives/C0NT0J4F8/p1790527360545349",
+   "kind": "paper",
+   "tags": {
+    "topic": [
+     "perception"
+    ],
+    "approach": [
+     "fmri",
+     "neuroimaging_methods"
+    ],
+    "type": [
+     "methods"
+    ]
+   },
+   "summary": "The authors developed a temporal decomposition method (TDM) that uses manifold fitting to separate microvascular from macrovascular contributions to task-based fMRI BOLD signals.",
+   "key_finding": "Removing late (macrovascular) timecourse components substantially reduced superficial cortical depth bias and eliminated artifacts in cortical activity maps.",
+   "free_keywords": [
+    "draining veins",
+    "cortical depth",
+    "manifold fitting",
+    "BOLD signal decomposition",
+    "spatial resolution",
+    "microvasculature"
+   ],
+   "classification": {
+    "taxonomy_version": "1.1.0",
+    "prompt_version": "1.1.0",
+    "model": "anthropic:claude-sonnet-5",
+    "input_mode": "abstract",
+    "confidence": 0.85,
+    "notes": null,
+    "classified_at": "2026-09-28T18:10:45Z",
+    "usage": {
+     "input_tokens": 453,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4104,
+     "output_tokens": 232,
+     "cost_usd": 0.01349
+    }
+   }
+  },
   {
    "id": "ashokkumar2026large",
    "slack_ts": "1790303387.512559",
