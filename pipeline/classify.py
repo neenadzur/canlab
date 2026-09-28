@@ -23,18 +23,6 @@ def get_classifier():
 
 # Specific stimulation methods always imply the umbrella tag, so "Neurostimulation (any)" filters everything.
 IMPLIES = {"tms": "brain_stimulation", "tdcs": "brain_stimulation", "tis": "brain_stimulation"}
-# PI rule (2026-09-27): a title that says signature, predictive model or neuromarker always carries the neuromarker tag
-NEUROMARKER_TITLE = re.compile(r"signature|predictive model|neuromarker", re.I)
-
-
-def title_rules(rec):
-    """Tags implied by the title alone; applied at tagging time and again at build time."""
-    tags = rec.setdefault("tags", {})
-    if NEUROMARKER_TITLE.search(rec.get("title") or "") and "neuromarker" not in (tags.get("approach") or []):
-        tags["approach"] = list(tags.get("approach") or []) + ["neuromarker"]
-    return rec
-
-
 def apply(rec, data, model, input_mode, confidence=None):
     """Write a tagging result (the JSON object from the model or from a manual batch) into a paper record."""
     tags = data.get("tags") or {}
@@ -44,7 +32,6 @@ def apply(rec, data, model, input_mode, confidence=None):
         if parent and parent not in approach:
             approach.append(parent)
     rec["tags"] = {"topic": list(dict.fromkeys(tags.get("topic") or [])), "approach": approach, "type": [tags["type"]] if tags.get("type") else []}
-    title_rules(rec)
     junk = lambda t: (t or "").strip() if (t or "").strip().lower() not in ("placeholder", "n/a", "none", "null") else ""
     rec["summary"] = junk(data.get("summary"))
     rec["key_finding"] = junk(data.get("key_finding")) or None

@@ -38881,8 +38881,7 @@
     ],
     "approach": [
      "machine_learning",
-     "brain_stimulation",
-     "neuromarker"
+     "brain_stimulation"
     ],
     "type": [
      "empirical"
@@ -51532,8 +51531,7 @@
      "perception"
     ],
     "approach": [
-     "computational_model",
-     "neuromarker"
+     "computational_model"
     ],
     "type": [
      "empirical"

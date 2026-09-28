@@ -151,8 +151,7 @@
     "clinical"
    ],
    "approach": [
-    "fmri",
-    "neuromarker"
+    "fmri"
    ],
    "type": [
     "empirical"
@@ -819,8 +818,7 @@
    "approach": [
     "fmri",
     "mega_analysis",
-    "mediation",
-    "neuromarker"
+    "mediation"
    ],
    "type": [
     "empirical"
@@ -1761,8 +1759,7 @@
    ],
    "approach": [
     "fmri",
-    "machine_learning",
-    "neuromarker"
+    "machine_learning"
    ],
    "type": [
     "empirical"
@@ -1878,7 +1875,8 @@
    "approach": [
     "other_imaging",
     "mediation",
-    "open_tools"
+    "open_tools",
+    "neuromarker"
    ],
    "type": [
     "empirical"
@@ -2512,8 +2510,7 @@
    "approach": [
     "fmri",
     "mega_analysis",
-    "machine_learning",
-    "neuromarker"
+    "machine_learning"
    ],
    "type": [
     "empirical"
@@ -4666,7 +4663,6 @@
    ],
    "approach": [
     "fmri",
-    "neuromarker",
     "computational_model",
     "behavioral"
    ],
@@ -5485,8 +5481,7 @@
    "approach": [
     "open_tools",
     "machine_learning",
-    "fmri",
-    "neuromarker"
+    "fmri"
    ],
    "type": [
     "commentary"
@@ -6787,8 +6782,7 @@
     "expectation_learning"
    ],
    "approach": [
-    "fmri",
-    "neuromarker"
+    "fmri"
    ],
    "type": [
     "empirical"
@@ -7089,7 +7083,6 @@
    ],
    "approach": [
     "fmri",
-    "neuromarker",
     "machine_learning"
    ],
    "type": [
@@ -7561,7 +7554,6 @@
    ],
    "approach": [
     "fmri",
-    "neuromarker",
     "machine_learning"
    ],
    "type": [
@@ -8340,8 +8332,7 @@
     "social"
    ],
    "approach": [
-    "fmri",
-    "neuromarker"
+    "fmri"
    ],
    "type": [
     "empirical"
@@ -8546,8 +8537,7 @@
    ],
    "approach": [
     "fmri",
-    "computational_model",
-    "neuromarker"
+    "computational_model"
    ],
    "type": [
     "empirical"
@@ -9576,7 +9566,6 @@
     "brain_body"
    ],
    "approach": [
-    "neuromarker",
     "behavioral",
     "open_tools"
    ],
@@ -9800,7 +9789,6 @@
    ],
    "approach": [
     "fmri",
-    "neuromarker",
     "mediation"
    ],
    "type": [
@@ -10984,8 +10972,7 @@
     "fmri",
     "other_imaging",
     "behavioral",
-    "open_tools",
-    "neuromarker"
+    "open_tools"
    ],
    "type": [
     "methods"
@@ -11108,7 +11095,8 @@
     "fmri",
     "machine_learning",
     "mega_analysis",
-    "mediation"
+    "mediation",
+    "neuromarker"
    ],
    "type": [
     "empirical"
@@ -11836,7 +11824,6 @@
    ],
    "approach": [
     "fmri",
-    "neuromarker",
     "machine_learning"
    ],
    "type": [
@@ -12941,7 +12928,6 @@
    ],
    "approach": [
     "fmri",
-    "neuromarker",
     "mega_analysis"
    ],
    "type": [
@@ -13193,7 +13179,6 @@
     "fmri",
     "meta_analysis",
     "mega_analysis",
-    "neuromarker",
     "open_tools"
    ],
    "type": [
@@ -14557,7 +14542,8 @@
    "approach": [
     "fmri",
     "machine_learning",
-    "open_tools"
+    "open_tools",
+    "neuromarker"
    ],
    "type": [
     "empirical"
@@ -15013,7 +14999,6 @@
    "approach": [
     "fmri",
     "machine_learning",
-    "neuromarker",
     "behavioral",
     "open_tools"
    ],
@@ -15139,8 +15124,7 @@
    "approach": [
     "fmri",
     "mega_analysis",
-    "behavioral",
-    "neuromarker"
+    "behavioral"
    ],
    "type": [
     "empirical"
@@ -15472,8 +15456,7 @@
    ],
    "approach": [
     "fmri",
-    "other_imaging",
-    "neuromarker"
+    "other_imaging"
    ],
    "type": [
     "review"
@@ -15775,7 +15758,6 @@
    "approach": [
     "pharmacology",
     "fmri",
-    "neuromarker",
     "brain_stimulation"
    ],
    "type": [
@@ -15993,7 +15975,8 @@
     "mediation",
     "mega_analysis",
     "machine_learning",
-    "open_tools"
+    "open_tools",
+    "neuromarker"
    ],
    "type": [
     "empirical"
@@ -16537,8 +16520,7 @@
    ],
    "approach": [
     "fmri",
-    "mediation",
-    "neuromarker"
+    "mediation"
    ],
    "type": [
     "empirical"
@@ -17850,7 +17832,8 @@
     "psychophysiology",
     "machine_learning",
     "behavioral",
-    "open_tools"
+    "open_tools",
+    "neuromarker"
    ],
    "type": [
     "empirical"
@@ -18043,7 +18026,8 @@
     "fmri",
     "ai_integration",
     "machine_learning",
-    "open_tools"
+    "open_tools",
+    "neuromarker"
    ],
    "type": [
     "empirical"
@@ -18219,8 +18203,7 @@
     "pain"
    ],
    "approach": [
-    "fmri",
-    "neuromarker"
+    "fmri"
    ],
    "type": [
     "empirical"
@@ -18989,7 +18972,6 @@
    ],
    "approach": [
     "fmri",
-    "neuromarker",
     "mediation"
    ],
    "type": [
@@ -19360,7 +19342,6 @@
    "approach": [
     "fmri",
     "mediation",
-    "neuromarker",
     "psychophysiology"
    ],
    "type": [
@@ -19557,8 +19538,7 @@
     "emotion"
    ],
    "approach": [
-    "fmri",
-    "neuromarker"
+    "fmri"
    ],
    "type": [
     "empirical"
@@ -19641,8 +19621,7 @@
    ],
    "approach": [
     "fmri",
-    "mediation",
-    "neuromarker"
+    "mediation"
    ],
    "type": [
     "empirical"
@@ -19829,8 +19808,7 @@
    ],
    "approach": [
     "fmri",
-    "machine_learning",
-    "neuromarker"
+    "machine_learning"
    ],
    "type": [
     "chapter"
@@ -20725,7 +20703,8 @@
     "fmri",
     "machine_learning",
     "mega_analysis",
-    "open_tools"
+    "open_tools",
+    "neuromarker"
    ],
    "type": [
     "empirical"
@@ -21223,7 +21202,6 @@
    ],
    "approach": [
     "fmri",
-    "neuromarker",
     "mediation",
     "computational_model"
    ],
@@ -21420,7 +21398,8 @@
     "fmri",
     "machine_learning",
     "psychophysiology",
-    "open_tools"
+    "open_tools",
+    "neuromarker"
    ],
    "type": [
     "empirical"
@@ -22272,7 +22251,6 @@
    ],
    "approach": [
     "fmri",
-    "neuromarker",
     "mediation"
    ],
    "type": [
@@ -22660,8 +22638,7 @@
    "approach": [
     "fmri",
     "mediation",
-    "machine_learning",
-    "neuromarker"
+    "machine_learning"
    ],
    "type": [
     "empirical"
@@ -24974,8 +24951,7 @@
    ],
    "approach": [
     "fmri",
-    "machine_learning",
-    "neuromarker"
+    "machine_learning"
    ],
    "type": [
     "review"
@@ -25081,7 +25057,6 @@
    "approach": [
     "fmri",
     "mediation",
-    "neuromarker",
     "behavioral"
    ],
    "type": [
@@ -25601,7 +25576,6 @@
    "approach": [
     "fmri",
     "pharmacology",
-    "neuromarker",
     "genetics"
    ],
    "type": [
@@ -25979,7 +25953,8 @@
     "fmri",
     "machine_learning",
     "psychophysiology",
-    "open_tools"
+    "open_tools",
+    "neuromarker"
    ],
    "type": [
     "empirical"
@@ -26763,7 +26738,6 @@
    "approach": [
     "fmri",
     "mediation",
-    "neuromarker",
     "open_tools"
    ],
    "type": [
@@ -30377,7 +30351,8 @@
    "approach": [
     "fmri",
     "machine_learning",
-    "open_tools"
+    "open_tools",
+    "neuromarker"
    ],
    "type": [
     "empirical"

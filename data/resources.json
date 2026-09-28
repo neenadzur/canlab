@@ -52,7 +52,9 @@
      "label": "Course materials on GitHub",
      "url": "https://github.com/torwager/mindfmricourse"
     }
-   ]
+   ],
+   "thumb": "course-mind.jpg",
+   "thumb_alt": "Tor Wager, Kent Kiehl and Vince Calhoun"
   }
  ],
  "tools_intro": "CANlab develops open-source tools for neuroimaging analysis, hosted at canlab.github.io with linked GitHub repositories and step-by-step walkthroughs.",
@@ -67,7 +69,7 @@
      "url": "https://github.com/canlab/Neuroimaging_Pattern_Masks"
     }
    ],
-   "thumb": "tool-neuromarkers.jpg"
+   "thumb": "tool-neuromarker-gallery.jpg"
   },
   {
    "title": "canlab.github.io",
@@ -102,7 +104,7 @@
    "title": "CANlab Core Tools",
    "url": "https://github.com/canlab/CanlabCore",
    "blurb": "Interactive, object-oriented data visualization and analysis, and multivariate prediction, in MATLAB.",
-   "thumb": "tool-core.jpg"
+   "thumb": "tool-code.jpg"
   },
   {
    "title": "CANlab Help Examples",
@@ -132,13 +134,13 @@
    "title": "Paradigms",
    "url": "https://github.com/canlab/Paradigms_Public",
    "blurb": "Experimental paradigms, code and stimuli.",
-   "thumb": "tool-paradigms.jpg"
+   "thumb": "tool-paradigm-design.jpg"
   },
   {
    "title": "CANlab Datasets",
    "url": "https://github.com/canlab/CANlab_data_public",
    "blurb": "Datasets from published CANlab papers.",
-   "thumb": "tool-datasets.jpg"
+   "thumb": "tool-data.jpg"
   },
   {
    "title": "Preprocessing Pipeline",

@@ -27,6 +27,9 @@
   .res-card .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .35s var(--ease); }
   .res-card:hover .thumb img { transform: scale(1.08); }
   .res-card.has-thumb > div { display: grid; gap: .35rem; }
+  .res-card.has-thumb.wide { grid-template-columns: 152px minmax(0, 1fr); }
+  .res-card.has-thumb.wide .thumb { width: 152px; height: 76px; }
+  @media (max-width: 560px) { .res-card.has-thumb.wide { grid-template-columns: 1fr; } .res-card.has-thumb.wide .thumb { width: 100%; height: auto; aspect-ratio: 2 / 1; } }
   .book .cover { width: 90px; height: 120px; border-radius: 6px; background: linear-gradient(160deg, var(--steel-deep), var(--steel)); color: #fff; font-family: var(--serif); display: grid; place-items: center; text-align: center; font-size: .8rem; padding: .5rem; box-shadow: 0 10px 20px -10px rgba(26,35,50,.5); }
   .book h3 { margin: 0 0 .2rem; }
   .book p { margin: 0 0 .5rem; color: var(--ink-2); font-size: .95rem; }
@@ -58,7 +61,7 @@
     <div class="section" id="books" style="margin-top:0"><h2>Books</h2></div>
     <div style="display:grid;gap:1rem">${r.books.map(b => `<div class="book rv in">${b.cover ? `<a href="${esc(b.url)}" target="_blank" rel="noopener"><img class="coverimg" src="assets/img/${esc(b.cover)}" alt="Cover of ${esc(b.title)}"></a>` : `<div class="cover">${esc(b.title)}</div>`}<div><h3><a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.title)} ↗</a></h3><p class="small muted" style="margin-bottom:.3rem">${esc(b.authors)}</p><p>${esc(b.blurb)}</p><div style="display:flex;gap:.5rem;flex-wrap:wrap"><a class="btn primary" href="${esc(b.url)}" target="_blank" rel="noopener">${b.url.includes("mitpress") ? "MIT Press" : "Get the e-book"} ↗</a>${(b.extra || []).map(x => `<a class="btn" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.label)} ↗</a>`).join("")}</div></div></div>`).join("")}</div>
     <div class="section" id="courses"><h2>Courses</h2><span class="muted">Free video lectures, self-quizzes and workshops</span></div>
-    <div class="res-grid">${r.courses.map(c => `<article class="res-card"><span class="prov">${esc(c.provider)}</span><h3><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)} ↗</a></h3><p>${esc(c.blurb)}</p>${extra(c.extra)}</article>`).join("")}</div>
+    <div class="res-grid">${r.courses.map(c => `<article class="res-card${c.thumb ? " has-thumb wide" : ""}">${c.thumb ? `<a class="thumb" href="${esc(c.url)}" target="_blank" rel="noopener"><img src="assets/img/${esc(c.thumb)}" alt="${esc(c.thumb_alt || "")}" loading="lazy"></a>` : ""}<div><span class="prov">${esc(c.provider)}</span><h3><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)} ↗</a></h3><p>${esc(c.blurb)}</p>${extra(c.extra)}</div></article>`).join("")}</div>
     <div class="section" id="tools"><h2>Open-source neuroimaging analysis tools</h2></div>
     <p class="prose" style="margin-bottom:1rem">${esc(r.tools_intro)}</p>
     <div class="res-grid">${r.tools.map(t => `<article class="res-card${t.thumb ? " has-thumb" : ""}">${t.thumb ? `<a class="thumb" href="${esc(t.url)}" target="_blank" rel="noopener"><img src="assets/img/${esc(t.thumb)}" alt="" loading="lazy"></a>` : ""}<div><h3><a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.title)} ↗</a></h3><p>${esc(t.blurb)}</p>${t.note ? `<p class="small muted" style="margin:.2rem 0 0">${esc(t.note)}</p>` : ""}${extra(t.extra)}</div></article>`).join("")}</div>
